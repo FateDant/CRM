@@ -1,0 +1,252 @@
+---------------------------------------------------------------
+[ 2018-07-23T08:35:58+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '111'  AND `pwd` = '698d51a19d8a121ce581499d7b701668' LIMIT 1 [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:37:23+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '5331f9ec8b21dac92d6f28fb87de3a39' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:37:49+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='a9e16ec0e262e7f4412e7b3f9f09596a'  WHERE  `user_id` = 1 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:39:18+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='7e036e1d4ab69b70c9d0b968dc530d7e'  WHERE  `user_id` = 1 [ RunTime:0.006001s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:42:19+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:42:36+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='acac438cf1d77642103f862919546b80'  WHERE  `user_id` = 1 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:44:41+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='21a2cac2c17b295193257700f9832fec'  WHERE  `user_id` = 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:45:35+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '6e5d05769e41467946f5f169b25a5279' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:46:48+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:46:56+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:48:11+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:48:17+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:50:14+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='4dc5e372cb8fc708d2b5058f250e76c1'  WHERE  `user_id` = 1 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:53:47+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='b19e89c0f7eb12fc1f0e5f1c0147b75f'  WHERE  `user_id` = 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:54:36+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='3291c7b2297785a854430840a17ee682'  WHERE  `user_id` = 1 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:58:00+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:59:05+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-23T08:59:16+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T09:03:27+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-23T09:04:22+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'c3f3b6987451539cf29872f2753f27ea' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T09:04:53+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='b22b5cf911ba3da8f343b9dfa20f2e9e'  WHERE  `user_id` = 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-07-23T09:05:53+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b22b5cf911ba3da8f343b9dfa20f2e9e' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-23T09:41:31+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2018-07-23T09:41:31+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2018-07-23T09:41:33+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2018-07-23T09:41:33+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2018-07-23T10:13:16+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\indexcharts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:16:21+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:17:21+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:17:23+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:17:32+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:17:34+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:18:16+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]variable type error： object
+---------------------------------------------------------------
+[ 2018-07-23T10:18:30+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [2]Missing argument 1 for think\View::display(), called in D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\controller\IndexCharts.php on line 10 and defined
+---------------------------------------------------------------
+[ 2018-07-23T10:22:09+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [2]Missing argument 1 for think\View::display(), called in D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\controller\IndexCharts.php on line 10 and defined
+---------------------------------------------------------------
+[ 2018-07-23T10:22:45+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:24:07+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\view.html
+---------------------------------------------------------------
+[ 2018-07-23T10:28:53+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [0]模板文件不存在:index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:30:00+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='22c5ebe1259fd685ff68be31f8babd40'  WHERE  `user_id` = 1 [ RunTime:0.007001s ]
+---------------------------------------------------------------
+[ 2018-07-23T10:31:31+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='db314975d8d768000755e25e90a36fb3'  WHERE  `user_id` = 1 [ RunTime:0.005000s ]
+---------------------------------------------------------------
+[ 2018-07-23T10:32:14+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'db314975d8d768000755e25e90a36fb3' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-23T10:32:18+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\view.html
+---------------------------------------------------------------
+[ 2018-07-23T10:32:53+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:view/index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:33:28+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:33:51+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:33:51+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:34:21+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:34:34+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\..\.html
+---------------------------------------------------------------
+[ 2018-07-23T10:35:21+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:grid/IndexCharts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:36:16+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:grid/IndexCharts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:37:24+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\grid.html
+---------------------------------------------------------------
+[ 2018-07-23T10:37:42+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:grid/IndexCharts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:37:43+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:grid/IndexCharts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:38:35+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:grid/index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:38:52+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:grid/index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T10:39:43+08:00 ] 127.0.0.1 GET /admin/indexCharts/indexCharts
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/admin\view\index_charts\index_charts.html
+---------------------------------------------------------------
+[ 2018-07-23T11:03:11+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ error ] [0]模板文件不存在:../application/admin/view/grid/RegularCharts.html
+---------------------------------------------------------------
+[ 2018-07-23T11:03:14+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ error ] [0]模板文件不存在:../application/admin/view/grid/RegularCharts.html
+---------------------------------------------------------------
+[ 2018-07-23T15:14:41+08:00 ] 127.0.0.1 GET /index/User/checkLogin
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-23T15:14:47+08:00 ] 127.0.0.1 GET /index/User/checkLogin
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-23T15:18:28+08:00 ] 127.0.0.1 POST /index/User/checkLogin
+[ error ] [1]Function name must be a string
+---------------------------------------------------------------
+[ 2018-07-23T15:18:31+08:00 ] 127.0.0.1 GET /index/User/checkLogin
+[ error ] [1]Function name must be a string
+---------------------------------------------------------------
+[ 2018-07-23T17:25:41+08:00 ] 127.0.0.1 POST /index/User/checkLogin
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-23T17:50:17+08:00 ] 127.0.0.1 GET /index/User/checkLogin
+[ error ] [8]Array to string conversion

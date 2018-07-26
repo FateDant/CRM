@@ -1,0 +1,62 @@
+/* 选项卡区域 */
+.infoTab {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* tab标签栏 */
+.infoTab .titleList {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.infoTab .contentList{
+	width: 100%;
+    /* height: 490px; */
+}
+.infoTab .contentItem{
+	
+}
+/* tab标签栏单个方块 */
+.infoTab .titleItem {
+	width: 33.3%;
+	height: 56px;
+	text-align: center;
+	position: relative;
+	z-index: 5 !important;
+	user-select: none;
+	cursor: default;
+	line-height: 56px;
+	color: #999;
+}
+
+.infoTab .titleItem:hover {
+	color: #4da7fd;
+}
+/* 被选中的方块 */
+.titleItemSelected {
+	color: #4da7fd !important;
+}
+/* 鼠标悬浮的效果 */
+.infoTab .titleHoverBG {
+	position: absolute;
+	width: 33.3%;
+	height: 56px;
+	top: 0em;
+	transition: all 250ms;
+	z-index: 1;
+	left: 0em;
+	border-bottom: 3px solid #4da7fd;
+}
+
+/* 鼠标按下的效果 */
+.infoTab .titleSelectedBG {
+	position: absolute;
+	width: 33.3%;
+	height: 56px;
+	z-index: 3;
+	transition: all 250ms;
+	border-bottom: 3px solid #4da7fd;
+	top: 0px;
+}

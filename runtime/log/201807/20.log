@@ -1,0 +1,683 @@
+---------------------------------------------------------------
+[ 2018-07-20T12:07:45+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:08:18+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:08:19+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:08:19+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:08:20+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:08:20+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:08:40+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\Email' not found
+---------------------------------------------------------------
+[ 2018-07-20T12:10:20+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:20+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:37+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:37+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:37+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:38+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:38+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:10:38+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T12:12:26+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: email
+---------------------------------------------------------------
+[ 2018-07-20T12:13:12+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ error ] [4]语法错误: unexpected '；' (T_STRING)
+---------------------------------------------------------------
+[ 2018-07-20T12:13:19+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\PHPMailer' not found
+---------------------------------------------------------------
+[ 2018-07-20T12:13:58+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: config
+---------------------------------------------------------------
+[ 2018-07-20T13:23:08+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: config
+---------------------------------------------------------------
+[ 2018-07-20T13:28:20+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-20T13:28:21+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-20T13:29:04+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:31:13+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:31:36+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:31:36+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:31:36+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:31:37+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:31:37+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:32:57+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:37:05+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:39:30+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:39:31+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:39:31+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T13:52:57+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T13:53:00+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T13:53:30+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:54:03+08:00 ] 127.0.0.1 GET /index/user/sendpassword.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T13:57:11+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:59:54+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:59:54+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:59:54+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:59:55+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:59:55+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T13:59:57+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:00:10+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T14:01:00+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T14:01:02+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:01:02+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:01:02+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:01:16+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '13270702469@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:03:01+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '13270702469@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:03:02+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '13270702469@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:03:04+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:03:17+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:03:54+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T14:04:29+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:04:47+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:05:15+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:05:16+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:05:16+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:05:16+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:05:32+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:05:32+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:06:15+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T14:07:44+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:08:17+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:09:05+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'lib\SMTP' not found
+---------------------------------------------------------------
+[ 2018-07-20T14:12:33+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:12:39+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:13:10+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:13:49+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:17:29+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '110@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:23:05+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1111@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:23:16+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '122312@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:23:51+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:24:18+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-20T14:26:00+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:26:13+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111@QQ.COM' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:26:30+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:28:24+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1111@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:30:13+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1111@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:30:37+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:30:39+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111@qq.com' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:30:42+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:07+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:18+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:21+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:24+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:28+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:28+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:29+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:30+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:31+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:33+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:31:59+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:32:01+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:32:03+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:32:14+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:33:42+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '111' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:34:01+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:34:29+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:35:25+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:35:39+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '13270702469@qq.com' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:35:50+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:37:54+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:38:06+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:55:11+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T14:56:22+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:02:24+08:00 ] 127.0.0.1 GET /index/user/registeraction.html
+[ error ] [1]Function name must be a string
+---------------------------------------------------------------
+[ 2018-07-20T15:13:09+08:00 ] 127.0.0.1 GET /index/user/registeraction.html
+[ error ] [8]未定义数组索引: HTTP_REFERER
+---------------------------------------------------------------
+[ 2018-07-20T15:38:07+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:38:23+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:38:39+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='119308'  WHERE  `user_id` = 1 [ RunTime:0.006001s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:40:36+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:40:47+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='fb35d6da851dba8798cef141d74ded8a'  WHERE  `user_id` = 1 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:41:32+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'fb35d6da851dba8798cef141d74ded8a' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:51:44+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '76528ce8b7fd7a33a5b44bc4492f55f2' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:52:13+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='7f392597f1ff43999dae03b0f6fa7e68'  WHERE  `user_id` = 1 [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2018-07-20T15:52:49+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '7f392597f1ff43999dae03b0f6fa7e68' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T16:34:52+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '7f392597f1ff43999dae03b0f6fa7e68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T16:35:57+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:36:41+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:17+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:18+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:18+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:18+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:18+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:18+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:37:19+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:38:07+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:38:48+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:40:16+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:40:16+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:40:16+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:40:39+08:00 ] 127.0.0.1 GET /admin/Index/index
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:41:33+08:00 ] 127.0.0.1 GET /admin/Index/index
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:41:33+08:00 ] 127.0.0.1 GET /admin/Index/index
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T16:41:49+08:00 ] 127.0.0.1 GET /admin/index/index
+[ error ] [8]Undefined property: app\admin\controller\Index::$view
+---------------------------------------------------------------
+[ 2018-07-20T17:25:54+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'ff2919899e903f48e51702b330cbbbca' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T17:26:12+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'zhangqiuyang2469@dingtalk.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='6e5d05769e41467946f5f169b25a5279'  WHERE  `user_id` = 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-07-20T17:26:51+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '6e5d05769e41467946f5f169b25a5279' LIMIT 1 [ RunTime:0.001000s ]

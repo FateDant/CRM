@@ -1,0 +1,131 @@
+/*登录页*/
+.container{
+    width: 100%;
+    height: 100%;
+    background:url("../../images/login_bg.gif") no-repeat;
+    background-size: cover;
+    padding-top: 164px;
+}
+.container .login{
+    width: 364px;
+    height: 670px;
+    margin:0 auto;
+    text-align: center;
+}
+.container .login .header-logo{
+    width: 364px;
+    height: 170px;
+    text-align: center;
+}
+.container .login .header-logo img{
+    width: 237px;
+    height: 152px;
+    vertical-align: top;
+}
+.container .login .login-title{
+    width: 237px;
+    height: 126px;
+    text-align: center;
+    font-size: 33px;
+    color: #2ca9d8;
+    line-height: 126px;
+    margin: 0px auto;
+}
+
+.login-userName,.login-pwd,.login-act,.yzmContainer,.login-act{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.login-userName>input,.login-pwd>input,.yzm-word,button{
+    height: 48px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #999;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.login-userName>input,.login-pwd>input{
+    width: 100%;
+}
+.yzm-word{
+    width: 202px;
+    display: inline-block;
+}
+.yzm-img{
+    width: 127px;
+    height: 48px;
+    margin-left: 21px;
+    display: flex;
+    align-items: center;
+}
+.login-act>button{
+    width: 100%;
+    background-color: #2ca9d8;
+    color: #ffffff;
+    border: 1px solid #2ca9d8;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.forget{
+    width: 100%;
+    text-align: right;
+
+}
+.forget>a{
+    color: #8d8c8c;
+    font-size: 14px;
+}
+
+
+/* 错误提示 */
+.errTips {
+	position: relative;
+	float: right;
+	color: red;
+	font-size: .9em;
+	margin: .8em 0 0 0;
+	opacity: 0;
+	transition: all 250ms;
+	filter: alpha(opacity =           0);
+}
+/* 显示错误提示 */
+.showErrorTips {
+	opacity: 1;
+	margin: 0.8em 1em 0 0;
+	position: relative;
+	z-index: 5;
+	background-color: #fff;
+	padding: 0 0 0 .5em;
+}
+/*灰色占位符*/
+.placeholder {
+	position: absolute;
+	top: .6em;
+	left: 3.4em;
+	color: darkgray;
+	display: none; /*所有浏览器隐藏*/
+	display: block\0; /*css hack确保IE8~IE11显示*/
+	/*到目前位置，在CH和FF下被隐藏*/
+}
+
+.btnSuccess {
+	border: .125em solid #009688 !important;
+	background-color: #25b788 !important;
+}
+
+.btnError {
+	background-color: #d80f00 !important;
+	border: .125em solid #c10d00 !important;
+}
+
+/*在IE10以上版本中隐藏灰色占位符，最终只在IE8/IE9中显示*/
+@media screen and(-ms-high-contrast:active) , ( -ms-high-contrast :none)
+	{
+	.placeholder {
+		display: none; /*仅仅针对IE10以上版本生效*/
+	}
+}

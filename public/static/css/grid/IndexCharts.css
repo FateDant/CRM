@@ -1,0 +1,57 @@
+/* 搜索页面管理 */
+body {
+	min-width: 1000px;
+}
+
+.IndexCharts-body {
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.IndexCharts-body  .IndexCharts-body-top {
+	width: 100%;
+	background-color: #2858ac;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	padding-left: 30px;
+}
+
+.IndexCharts-body .acount-search {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	margin: 15px 30px;
+	padding-left: 15px;
+	border-left: 3px solid #2858ac;
+	color: #2858ac;
+}
+/* 图表所在区域 */
+.chartsContainer {
+	width: 96.6%;
+	margin: 0 auto;
+}
+
+.school-rank {
+	width: 100%;
+	height: 400px;
+}
+
+.infoContainer {
+	width: 100%;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.infoSource,.stuState {
+	width: 45%;
+	height: 320px;
+}
+
+.stuTotal {
+	width: 95%;
+	height: 300px;
+	margin-top: 30px;
+}

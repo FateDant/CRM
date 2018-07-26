@@ -1,0 +1,94 @@
+/* 通用封装样式 */
+* {
+	font-family: "Microsoft YaHei";
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd {
+	
+}
+
+input,textarea {
+	
+}
+
+[type="radio"],[type="checkbox"] {
+	
+}
+
+ul,ol {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	
+}
+
+/* 隐藏样式 */
+.hidden {
+	display: none !important;
+}
+
+/*文本框、按钮、下拉列表等*/
+input[type='text'],input[type='password'],input[type="button"],select,textarea
+	{
+	
+}
+
+/*鼠标悬停在文本框、按钮、下拉列表等*/
+input[type='text']:hover,input[type='password']:hover,input[type="button"]:hover,select:hover,textarea:hover
+	{
+	
+}
+
+/*文本框、下拉列表获得焦点*/
+input[type='text']:focus,input[type='password']:focus,select:focus,textarea:focus
+	{
+	
+}
+
+/*文本框内出错*/
+.txtError {
+	border-color: red !important;
+}
+.btnError{
+	
+}
+/*按钮通用*/
+input[type="button"] {
+	
+}
+
+/*按钮通用悬停*/
+input[type="button"]:hover {
+	
+}
+
+/*按钮按下*/
+input[type="button"]:active {
+	
+}
+
+/*按钮禁用*/
+.btnDisable {
+	border: .0625em solid #a7a7a7 !important;
+	background-color: #cacaca !important;
+	color: #333 !important;
+}
+
+/*阻止拖动修改大小*/
+textarea {
+	resize: none;
+}

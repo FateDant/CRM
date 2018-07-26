@@ -1,0 +1,104 @@
+/* 添加用户弹出层CSS */
+body {
+	overflow: hidden;
+}
+/* 隐藏添加用户栏 */
+.index-userGrid-addUser-content {
+	margin-top: 20px;
+}
+/* 输入信息单行样式 */
+.index-userGrid-addUser-content>.row-content {
+	width: 365px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.index-userGrid-addUser-content>.row-content label {
+	margin-right: 10px;
+	color: #444;
+	user-select: none;
+}
+/* 性别和校区下拉列表 描述文本框 */
+.divFlex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+input[type="text"],.selectGender,.selectSchool,.description,.selectRole {
+	width: 250px;
+	border: 0.125em solid #ddd;
+	border-radius: 4px;
+	padding-left: 8px;
+}
+
+input[type="text"],.selectGender,.selectSchool,.selectRole {
+	height: 30px;
+}
+
+.selectGender,.selectSchool,.selectRole {
+	display: inline-block;
+	text-align: left;
+}
+/* 描述 */
+.row-content>.description {
+	height: 100px;
+	display: inline-block;
+	resize: none;
+}
+/* 开通按钮 */
+.index-userGrid-addUser-content>.submit {
+	text-align: center;
+}
+
+.index-userGrid-addUser-content>.submit .btnSave {
+	width: 86px;
+	background-color: #0079be;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	height: 28px;
+	letter-spacing: 1px;
+	line-height: 28px;
+	border-radius: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.index-userGrid-addUser-content>.submit .btnSave:focus {
+	border: none;
+	outline: none;
+}
+/* 错误提示 */
+.errTips {
+	position: relative;
+	float: right;
+	color: red;
+	font-size: .9em;
+	margin: -2.2em 0 0 0;
+	opacity: 0;
+	transition: all 250ms;
+	filter: alpha(opacity =           0);
+}
+/* 显示错误提示 */
+.showErrorTips {
+	opacity: 1;
+	margin: -1.7em 1em 0 0;
+	position: relative;
+	z-index: 5;
+	background-color: #fff;
+	padding: 0 0 0 .5em;
+}
+
+/*灰色占位符*/
+.placeholder {
+	position: absolute;
+	top: .6em;
+	left: 3.4em;
+	color: darkgray;
+	display: none; /*所有浏览器隐藏*/
+	display: block\0; /*css hack确保IE8~IE11显示*/
+	/*到目前位置，在CH和FF下被隐藏*/
+}

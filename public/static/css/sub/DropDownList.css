@@ -1,0 +1,66 @@
+/* 真个下拉列表 */
+.ddl {
+	position: relative;
+    color: #333;
+    cursor: pointer;
+    background-color: #fafafa;
+    user-select: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+/* 文本显示区域 */
+.ddlTxt {
+	padding: 4px 0px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+}
+/* 箭头 */
+.ddlArrow {
+	border-top: 8px solid #9c9c9c;
+	border-right: 8px solid #ffffff;
+	border-left: 8px solid #ffffff;
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+/* 列表框 */
+.ddlList {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	border: .125em solid #d0d0d0;
+	width: 100%;
+	left: -.125em;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+	max-height: 20em;
+	overflow-y: auto;
+	box-sizing: content-box;
+	transition: all 250ms;
+	opacity: 0;
+	z-index: 20;
+}
+/* 单远行 */
+.ddlItem {
+	padding: .3em 2em .3em 1em;
+	background-color: white;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	transition: background-color 250ms;
+}
+
+.ddlItem:hover {
+	background-color: #e2e2e2;
+}
+
+/* 选中行 */
+.ddlItemSelected {
+	background-color: #7990c5 !important;
+	color: white !important;
+}

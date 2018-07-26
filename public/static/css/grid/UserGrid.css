@@ -1,0 +1,317 @@
+/* 用户管理页面 */
+body {
+	min-width: 1000px;
+}
+
+.userGrid-body {
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.userGrid-body  .userGrid-body-top {
+	width: 100%;
+	background-color: #2858ac;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	padding-left: 30px;
+}
+
+.userGrid-body .acount-search {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	margin: 15px 30px;
+	padding-left: 15px;
+	border-left: 3px solid #2858ac;
+	color: #2858ac;
+}
+
+/* 搜索表格内容 */
+.search-container {
+	width: 100%;
+	padding: 0 30px;
+	color: #333;
+	border-collapse: collapse;
+}
+
+.userGrid-body .search-container tr td {
+	border: 1px solid #ddd;
+}
+
+.userGrid-body .search-container tr td:nth-of-type(odd) {
+	width: 10%;
+	text-align: right;
+	background-color: #f3fbff;
+}
+
+.userGrid-body .search-container tr td:nth-of-type(odd) label {
+	margin-right: 10px;
+}
+
+.userGrid-body .search-container tr td:nth-of-type(even) {
+	width: 15%;
+	text-align: center;
+}
+
+.userGrid-body .search-container tr td:nth-of-type(even) input[type="text"]
+	{
+	width: 80%;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	background-color: #fafafa;
+	height: 35px;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+
+.userGrid-body .search-container tr td:nth-of-type(even) .search-container-list
+	{
+	height: 35px;
+	width: 200px;
+	margin: 0 auto;
+	line-height: 26px;
+	text-align: left;
+	padding-left: 10px;
+	color: #757575;
+}
+/* 按钮操作 */
+.userGrid-body .act {
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+}
+
+.select,.reset {
+	width: 80px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	letter-spacing: 2px;
+	outline: none;
+	user-select: none;
+	cursor: pointer;
+}
+
+.select {
+	background-color: #3497db;
+	margin-right: 15px;
+}
+
+.reset {
+	background-color: #f98e1a;
+}
+
+/* 开通用户 */
+.addContainer {
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.addContainer .add {
+	color: #5474b8;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+/* 用户信息列表标题 */
+.list-title {
+	width: 100%;
+	margin: 10px 0px 10px 20px;
+	padding-left: 10px;
+	padding-right: 40px;
+	border-left: 6px solid #007bbe;
+}
+
+.list-title span {
+	color: #758dc3;
+	font-size: 18px;
+}
+
+.list-title .del-update {
+	float: right;
+}
+
+.list-title .del-update .update {
+	color: #0095e7;
+	background-color: #fff;
+	border: 1px solid #0082ca;
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+
+.list-title .del-update .delete {
+	padding: 4px 8px;
+	border-radius: 4px;
+	margin-right: 10px;
+	color: #e63838;
+	background-color: #fff;
+	border: 1px solid #f72222;
+}
+/* 用户信息表格 */
+.myTableUser {
+	width: 97.8%;
+	margin: 0 auto;
+}
+/*表格外层边框*/
+.grid {
+	width: 100%;
+	border-left: 0.0625em solid #e0e0e0;
+	border-top: 0.125em solid #3060b3;
+}
+/*表头背景色*/
+.grid>thead>tr>th {
+	background-color: rgba(40, 88, 172, 0.24);
+	color: #333;
+	font-size: 1.1em;
+}
+
+/*表格行鼠标悬停*/
+.grid>tbody>tr:hover {
+	background-color: #f3f3f3;
+}
+
+/*表格单元格*/
+.gridCell {
+	border-right: 0.0625em solid #e0e0e0;
+	border-bottom: 0.0625em solid #e0e0e0;
+	padding: .4em 1em;
+	position: relative;
+}
+
+/*表格行选中*/
+.gridSelected {
+	background-color: #e6e5e5 !important;
+}
+
+/*单元格内部元素靠右对齐*/
+.alignright {
+	text-align: right;
+}
+
+/*单元格内部元素居中对齐*/
+.aligncenter {
+	text-align: center;
+}
+
+/* 分页 */
+.pager {
+	border: 0.0625em solid #e0e0e0;
+	border-top-width: 0;
+	padding: .3em .3em;
+	background-color: #f2f8fc;
+	color: #464646;
+	height: 2.65em;
+	width: 99.96%;
+}
+
+table.pagerLine {
+	width: 100%;
+}
+
+/* 分页栏布局用表格 */
+.pageLine {
+	width: 100%;
+	font-size: .9em;
+}
+/* 共 11 项,每页显示 */
+td.info-show {
+	padding-left: 8px;
+	width: 8.6%;
+}
+/* 分页容器 */
+td.ddlPageSize-container {
+	width: 5.2%;
+}
+/* 项 */
+td.pageItem {
+	width: 76.9%;
+}
+/* 分页栏按钮 */
+.pageBtn {
+	padding: .5em .1em .1em .5em!imporyant;
+}
+/* 表格底部下拉列表 */
+.ddlPageSize {
+	width: 5em;
+	border: 0.0625em solid #bdbdbd;
+}
+
+/* 下拉列表弹出部分的边框 */
+.ddlPageSize .ddlList {
+	border: 0.0625em solid #bdbdbd;
+	left: -0.0694em;
+}
+/* 降低下拉列表显示文字的高度 */
+.ddlPageSize .ddlTxt {
+	padding: .1em 1.5em .1em .5em;
+}
+/* 调整小箭头位置 */
+.ddlPageSize .ddlArrow {
+	top: .6em;
+}
+/* 分页栏按钮 */
+.pagerLine>tbody>tr>td>input[type="button"] {
+	background-color: #2858ac;
+	border: 0.0625em solid #1c3e79;
+	color: #fff;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+}
+
+td.currentPage {
+	width: 2.7%;
+	text-align: center;
+	letter-spacing: 1px;
+}
+/* 显示详情描述和评价 */
+.showAll {
+	color: #059a9a;
+	text-decoration: underline;
+}
+
+.desTipsContainerGoods {
+	position: absolute;
+	width: 20em;
+	left: -20em;
+	bottom: 0.3em;
+	line-height: 1.5em;
+	padding: 0.1em 0 .1em 0.1em;
+	top: 2.1em;
+	transition: all 250ms;
+	z-index: 30;
+}
+/* 描述容器 */
+.desTipsContainer {
+	position: absolute;
+	width: 16em;
+	left: -16.1em;
+	bottom: 0.3em;
+	line-height: 1.5em;
+	padding: 0.1em 0 .1em 0.1em;
+	top: 0.5em;
+	transition: all 250ms;
+	z-index: 30;
+}
+
+.desTips {
+	background-color: #f8fcff;
+	padding: 0.6em 0em .6em 1.1em;
+}
+
+/* 描述小箭头 */
+.desArrow {
+	position: absolute;
+	left: 16em;
+	width: 0.5em;
+	top: 0.9em;
+	color: #a1d8d8;
+}

@@ -1,0 +1,104 @@
+/* 添加用户弹出层CSS */
+body {
+	overflow: hidden;
+}
+/* 隐藏添加用户栏 */
+.index-stuGrid-addstu-content {
+	margin-top: 20px;
+}
+/* 输入信息单行样式 */
+.index-stuGrid-addstu-content .basicInfo {
+	padding-left: 22px;
+	color: #6a8ad4;
+	margin-top: -15px;
+}
+
+.index-stuGrid-addstu-content table.add-container {
+	width: 90%;
+	margin: 20px auto;
+	border-top: 1px solid #ddd;
+}
+
+/* 表格中技术td */
+.index-stuGrid-addstu-content table.add-container tr td:nth-of-type(odd)
+	{
+	width: 10%;
+	text-align: right;
+}
+table.add-container tr td:nth-of-type(even){
+	position:relative;
+}
+.index-stuGrid-addstu-content label {
+	margin-right: 10px;
+	color: #444;
+	user-select: none;
+}
+
+label.word-space {
+	letter-spacing: 12px;
+}
+
+input[type="text"],.add-container-list {
+	border: 0.125em solid #ddd;
+	border-radius: 4px;
+	padding-left: 8px;
+	margin: 15px 0;
+	width: 90%;
+	height: 34px;
+}
+
+/* 提交按钮 */
+.index-stuGrid-addstu-content>.submit {
+	text-align: center;
+	margin: 33px;
+}
+
+.index-stuGrid-addstu-content>.submit .btnSave {
+	width: 100px;
+	background-color: #0079be;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	height: 31px;
+	letter-spacing: 3px;
+	line-height: 12px;
+	border-radius: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.index-stuGrid-addstu-content>.submit .btnSave:focus {
+	border: none;
+	outline: none;
+}
+/* 错误提示 */
+.errTips { 
+	color: red;
+	font-size: 14px;
+	opacity: 0;
+	transition: all 250ms;
+	filter: alpha(opacity =                           0);
+	position: absolute;
+    right: -76px;
+    top: 22px;
+}
+/* 显示错误提示 */
+.showErrorTips {
+	opacity: 1;
+	z-index: 1;
+	background-color: #fff;
+	position: absolute;
+	right: 30px;
+	top: 22px;
+}
+
+/*灰色占位符*/
+.placeholder {
+	position: absolute;
+	top: .6em;
+	left: 3.4em;
+	color: darkgray;
+	display: none; /*所有浏览器隐藏*/
+	display: block\0; /*css hack确保IE8~IE11显示*/
+	/*到目前位置，在CH和FF下被隐藏*/
+}

@@ -1,0 +1,18 @@
+.tips {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	transition: all 250ms;
+	z-index: 2000;
+	padding: .5em 1em;
+}
+
+.rightTips {
+	background-color: #009688 !important;
+	color: #fff;
+}
+
+.errorTips {
+	background-color: #f1457f;
+	color: #fff;
+}

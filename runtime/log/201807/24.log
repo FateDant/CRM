@@ -1,0 +1,416 @@
+---------------------------------------------------------------
+[ 2018-07-24T09:42:29+08:00 ] 127.0.0.1 GET /index/user/logout.html
+[ error ] [4]语法错误: unexpected ''user/registerAction'' (T_CONSTANT_ENCAPSED_STRING)
+---------------------------------------------------------------
+[ 2018-07-24T10:05:37+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '111'  AND `pwd` = '698d51a19d8a121ce581499d7b701668' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:06:21+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b22b5cf911ba3da8f343b9dfa20f2e9e' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:10:18+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='581e09d83683250acc99aa38d8c45d19'  WHERE  `user_id` = 1 [ RunTime:0.006001s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:11:35+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b8a70538aeb68cf2f31c140dc881ff3c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:12:09+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b8a70538aeb68cf2f31c140dc881ff3c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:18:27+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = '581e09d83683250acc99aa38d8c45d19' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]类的属性不存在:app\index\model\User->id
+---------------------------------------------------------------
+[ 2018-07-24T10:29:01+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'd5d4b8c0aae499457c7320750efbf51d' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:31:38+08:00 ] 127.0.0.1 GET /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `f_user`  SET `pwd`='b6487056ab0bbc7824d9a0dccd4910ad'  WHERE  `user_id` = 1 [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:32:02+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]类的属性不存在:app\index\model\User->id
+---------------------------------------------------------------
+[ 2018-07-24T10:35:50+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]类的属性不存在:app\index\model\User->id
+---------------------------------------------------------------
+[ 2018-07-24T10:37:12+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:41:06+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:42:09+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:43:24+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:44:07+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:44:42+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:46:25+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:47:26+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:49:16+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:54:20+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:55:36+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:56:14+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:58:15+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:59:02+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T10:59:44+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T11:00:55+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T11:02:58+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T11:04:06+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T11:06:09+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'b6487056ab0bbc7824d9a0dccd4910ad' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T13:07:15+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:24:28+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+---------------------------------------------------------------
+[ 2018-07-24T14:26:22+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+---------------------------------------------------------------
+[ 2018-07-24T14:27:28+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-24T14:27:38+08:00 ] 127.0.0.1 GET /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-24T14:28:08+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:28:18+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '收到罚单' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:28:23+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:28:27+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserName
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:29:59+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserEmail
+[ error ] [8]未定义变量: request
+---------------------------------------------------------------
+[ 2018-07-24T14:32:23+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserEmail
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '1332836872@qq.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:32:31+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserEmail
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '12312312' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:32:34+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserEmail
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:34:30+08:00 ] 127.0.0.1 POST /admin/UserGrid/checkUserEmail
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = 'asdfsdf' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T14:41:59+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ error ] [1]Call to undefined method app\admin\controller\UserGrid::palidate()
+---------------------------------------------------------------
+[ 2018-07-24T14:46:07+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ error ] [0]数据表字段不存在:[confirmPwd]
+---------------------------------------------------------------
+[ 2018-07-24T15:07:52+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'school_id' doesn't have a default value
+---------------------------------------------------------------
+[ 2018-07-24T15:10:11+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `f_user` (`user_name` , `emp_name` , `pwd` , `mobile` , `email` , `school_id`) VALUES ('zhangqiuyang' , '张秋阳' , '123456' , '12312312312' , 'echozqy@163.com' , 1) [ RunTime:0.006001s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-24T15:15:50+08:00 ] 127.0.0.1 GET /admin/UserGrid/addUser
+[ error ] [8]未定义数组索引: user_name
+---------------------------------------------------------------
+[ 2018-07-24T15:19:06+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2018-07-24T15:25:27+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `f_user` (`user_name` , `emp_name` , `pwd` , `mobile` , `email` , `school_id`) VALUES ('zhangqiuyagn' , 'zhangqiuyagn' , 'e10adc3949ba59abbe56e057f20f883e' , '21231232131' , 'echozqy@163.com' , 1) [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-24T15:26:45+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] INSERT INTO `f_user` (`user_name` , `emp_name` , `pwd` , `mobile` , `email` , `school_id`) VALUES ('zzz' , 'ZZz' , '0b4e7a0e5fe84ad35fb5f95b9ceeac79' , 'aaaaaaaaaaa' , 'aaaaa' , 1) [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:10:21+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:11:05+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:11:50+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:17:54+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:18:34+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:44:54+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)
+---------------------------------------------------------------
+[ 2018-07-24T16:44:57+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)
+---------------------------------------------------------------
+[ 2018-07-24T16:45:39+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:49:00+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function data() on null
+---------------------------------------------------------------
+[ 2018-07-24T16:49:24+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:50:37+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ error ] [4]语法错误: unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-07-24T16:50:58+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ error ] [4]语法错误: unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-07-24T16:51:00+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ error ] [4]语法错误: unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-07-24T16:55:18+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` IN (0,0) LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:56:33+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` IN (0) LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:58:05+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T16:59:31+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Class 'app\admin\controller\UserInfo' not found
+---------------------------------------------------------------
+[ 2018-07-24T17:01:56+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:04:28+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function toArray() on null
+---------------------------------------------------------------
+[ 2018-07-24T17:04:52+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Call to a member function toArray() on null
+---------------------------------------------------------------
+[ 2018-07-24T17:04:59+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:05:03+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:05:09+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function toArray() on null
+---------------------------------------------------------------
+[ 2018-07-24T17:07:27+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function toArray() on null
+---------------------------------------------------------------
+[ 2018-07-24T17:07:33+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:07:41+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function toArray() on null
+---------------------------------------------------------------
+[ 2018-07-24T17:08:46+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:11:17+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:11:40+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:11:54+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:12:08+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = '法看风景奥斯卡了' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-24T17:13:27+08:00 ] 127.0.0.1 POST /admin/UserGrid/addUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `f_user` (`user_name` , `emp_name` , `pwd` , `mobile` , `email` , `school_id`) VALUES ('ldh' , '刘德华' , 'c33367701511b4f6020ec61ded352059' , '13414134123' , '322341' , 1) [ RunTime:0.006000s ]

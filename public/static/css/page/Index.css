@@ -1,0 +1,132 @@
+/* 首页CSS */
+body {
+	min-width: 1000px;
+	overflow: hidden;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+}
+/* 顶部导航 */
+table>tbody>tr:first-child {
+	background-color: #2858ac;
+}
+
+.main .nav {
+	height: 74px;
+	color: white;
+	padding: 0 40px;
+}
+
+.main .nav .nav-row {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.main .nav .nav-logo {
+	width: 204px;
+	height: 49px;
+}
+
+.main .nav .nav-logo img {
+	width: 204px;
+	height: 49px;
+}
+
+.main .nav .nav-title {
+	margin-left: 50px;
+	width: 250px;
+	font-size: 24px;
+}
+
+/* 用户 */
+.main .nav .btnUser {
+	user-select: none;
+	cursor: pointer;
+	padding: 0.525em 1em .325em 1em;
+	margin-left: auto;
+	position: relative;
+}
+
+.main .nav .btnUser a {
+	color: #fff;
+}
+
+/* 更多 */
+.main .nav .btnUser .user_more {
+	border-style: solid dashed;
+	border-color: transparent transparent transparent #c2c2c2;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	position: absolute;
+	top: 13px;
+	border-width: 8px;
+	right: -5px;
+}
+.user_more:hover{
+	/* transform:rotate(90deg); */
+}
+/* 用户隐藏选择 */
+.main .nav .btnUser .ddl {
+	position: absolute;
+    top: 58px;
+    right: -40px;
+    width: 150px;
+    background-color: #2858ac;
+    font-size: 15px;
+    padding-left: 0;
+    display:none;
+}
+
+.ddl>li {
+	width: 100%;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.ddl>li:first-child {
+	margin-top: 5px;
+}
+
+.ddl>li:hover {
+	background-color: #6a8ad4;
+}
+
+.ddl>li div {
+	width: 64%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.ddl>li .fa {
+	margin-right: 0.5em;
+	width: 1.2em;
+}
+
+.ddl>li:nth-child(3) {
+	padding-bottom: 6px;
+}
+/* 主体部分 */
+table>tbody>tr:nth-child(2) {
+	background-color: #ededed;
+}
+
+table>tbody>tr:nth-child(2)>td:nth-child(1) {
+	width: 200px;
+}
+
+/* 内容框 */
+#rightContent {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#mainIframe {
+	width: 100%;
+}

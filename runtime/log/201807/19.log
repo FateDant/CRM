@@ -1,0 +1,165 @@
+---------------------------------------------------------------
+[ 2018-07-19T13:31:22+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.007000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+---------------------------------------------------------------
+[ 2018-07-19T13:32:24+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+---------------------------------------------------------------
+[ 2018-07-19T13:36:27+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'aaaaaaa'  AND `pwd` = '4297f44b13955235245b2497399d7a93' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T13:53:49+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T13:54:54+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T13:54:59+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T13:55:09+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T13:56:13+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T13:56:16+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T13:57:45+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T13:57:45+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T13:58:13+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T13:58:15+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T13:59:26+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T13:59:27+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T14:01:44+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:02:09+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:05:23+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:05:24+08:00 ] 127.0.0.1 GET /index/user/checklogin.html
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-19T14:06:39+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:07:27+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]类的属性不存在:app\index\model\User->id
+---------------------------------------------------------------
+[ 2018-07-19T14:08:26+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:15:28+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:31:18+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:37:26+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:38:04+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T14:41:53+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'fate'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T15:43:52+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T15:52:05+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-19T15:53:08+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'fate'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T16:10:13+08:00 ] 127.0.0.1 GET /index/User/forgotPassword/
+[ error ] [0]模板文件不存在:D:\ruanjian\wamp\wamp64\www\ThinkPHP\public/../application/index\view\user\forgot_password.html
+---------------------------------------------------------------
+[ 2018-07-19T16:40:04+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-07-19T16:40:08+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-07-19T16:40:18+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-07-19T16:40:52+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-07-19T17:00:59+08:00 ] 127.0.0.1 POST /index/user/sendpassword.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '11111111' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-19T17:01:29+08:00 ] 127.0.0.1 POST /index/User/sendPassword
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `email` = '133283@qq.com' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-19T17:16:01+08:00 ] 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]

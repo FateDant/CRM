@@ -1,0 +1,20 @@
+---------------------------------------------------------------
+[ 2018-07-17T17:37:25+08:00 ] 127.0.0.1 GET /
+[ error ] [4]语法错误: unexpected 'var_dump' (T_STRING)
+---------------------------------------------------------------
+[ 2018-07-17T17:38:22+08:00 ] 127.0.0.1 GET /
+[ error ] [1]Class 'app\index\controller\Db' not found
+---------------------------------------------------------------
+[ 2018-07-17T17:39:07+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-07-17T17:40:47+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-17T17:54:22+08:00 ] 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_course` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_course` [ RunTime:0.000000s ]

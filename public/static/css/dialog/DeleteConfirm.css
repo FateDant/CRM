@@ -1,0 +1,32 @@
+/* É¾³ý¿òÑùÊ½ */
+.content {
+	width: 17em;
+	margin: 1em auto;
+	height: 8em;
+}
+
+.dialog-container {
+	height: 3em;
+	padding: 0.3em 0em 0.3em 0em;
+	display:flex;
+	align-items:center;
+}
+
+.fa-trash-o {
+	font-size: 2.2em;
+}
+
+.contentText {
+	margin-left: 14px;
+}
+
+.btnBar>button {
+	padding: 0.3em 1.8em .4em 1.8em;
+	font-size: 1.1em;
+	border: none;
+	border-radius: .2em;
+	margin: 1em;
+	color: #fff;
+	background-color: #142c56;
+    border: .0625em solid #0d2042;
+}
