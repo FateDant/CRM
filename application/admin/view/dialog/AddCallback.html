@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file='../common/Private.jsp'%>
+<%
+	String[] arrPlaceholder = { "由3-20位数字/字母/下划线组成", "由6-20位字母/汉字组成","由6-20位数字/字母/下划线组成","由11位数字组成","由数字/字母@163|qq.com","可使用数字/字母/汉字" };
+%>
+<!doctype html>
+<html>
+<head>
+<base href="<%=basePath%>">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>回访记录</title>
+<link rel="stylesheet" href="css/common/font-awesome.css" />
+<link rel="stylesheet" href="css/common/jquery-ui.css" />
+<link rel="stylesheet" href="css/common/Common.css" />
+<link rel="stylesheet" href="css/sub/Tips.css" />
+<link rel="stylesheet" href="css/sub/DropDownList.css" />
+<link rel="stylesheet" href="css/dialog/AddCallback.css" />
+</head>
+<body>
+	<span id="userId" class="hidden"><%=userId %></span>
+	<div class="index-callbackGrid-addcallback-content">
+		<div class="basicInfo">回访记录</div>
+		<table class="add-container" cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td><label for="callback-time">咨询日期</label></td>
+					<td><input type="text" id="callback-time" class="add-container-list"/></td>
+					<td><label for="call-way" >回访方式</label></td>
+					<td><div id="call-way" class="add-container-list"></div></td>
+					<td><label for="stu-will">学员意向</label></td>
+					<td><div id="stu-will" class="add-container-list"></div></td>
+				</tr>
+				<tr>
+					<td><label for="call-user" class="word-space">回访人员</label></td>
+					<td><div id="call-user" class="add-container-list"></div></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="callback-content">
+			<div class="callback-content-title">回访记录</div>
+			<textarea name="" id="callback-content-container" class="callback-content-container"></textarea>
+		</div>
+		<div class="submit">
+			<input id="btnSave" class="btnSave" type="button" value="提交" />
+		</div>
+
+	</div>
+<script src="js/common/jquery-1.12.0.js" type="text/javascript"></script>
+<script src="js/common/jquery-ui.min.js" type="text/javascript"></script>
+<script src="js/common/util.js" type="text/javascript"></script>
+<script src="js/sub/Tips.js" type="text/javascript"></script>
+<script src="js/sub/DropDownList.js" type="text/javascript"></script>
+<script src="js/dialog/AddCallback.js"></script>
+</body>
+</html>
