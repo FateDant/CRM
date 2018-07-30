@@ -5,11 +5,17 @@
 
 namespace app\admin\controller;
 
+use app\admin\model\SchName;
 use think\Controller;
 use app\admin\model\PraiseGrid as PraiseGridModel;
+use think\Session;
 
 class PraiseGrid extends Controller {
     public function index() {
+        $school_id                  = Session::get('user_info.school_id');
+        $schoolInfo = SchName::get($school_id)->toArray();
+        $school_name = $schoolInfo['school_name'];
+        $this -> assign('school_name',$school_name);
         return view('../application/admin/view/grid/PraiseGrid.html');
     }
 

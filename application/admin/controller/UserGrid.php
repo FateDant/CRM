@@ -5,6 +5,8 @@
 
 namespace app\admin\controller;
 
+use app\admin\model\f_school;
+use app\admin\model\SchName;
 use app\admin\model\User as UserModel;
 use app\admin\model\User;
 use think\Controller;
@@ -13,6 +15,10 @@ use think\Session;
 
 class UserGrid extends Controller {
     public function index() {
+        $school_id   = Session::get('user_info.school_id');
+        $schoolInfo  = f_school::get($school_id)->toArray();
+        $school_name = $schoolInfo['school_name'];
+        $this->assign('school_name', $school_name);
         return view('../application/admin/view/grid/UserGrid.html');
     }
 
@@ -102,7 +108,6 @@ class UserGrid extends Controller {
             $data = UserModel::get(['user_name' => $data['user_name']])->toArray();
         }
         return json(['status' => $status, 'message' => $message, 'data' => $data]);
-
 
     }
 }

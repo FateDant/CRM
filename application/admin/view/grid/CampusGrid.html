@@ -40,7 +40,7 @@
 <body>
 	<div class="admissionsGrid-body">
 		<div class="admissionsGrid-body-top">
-			<span>校区招生-</span> <span>学校名称</span>
+			<span>校区招生-</span> <span>{$school_name}</span>
 		</div>
 		<div class="acount-search">数据搜索</div>
 		<form action="stuInfo" method="post">
@@ -146,12 +146,16 @@
 		<div class="list-title">
 			<span>学员信息列表</span>
 			<div class="del-update">
-				<button class="addRecord" id="btnAddRecord">
-					<i class="fa fa-plus"></i> 添加回访记录
-				</button>
-				<button class="update" id="btnEdit">
-					<i class="fa fa-pencil-square-o"></i> 编辑
-				</button>
+
+				<!--<button class="addRecord" id="btnAddRecord">-->
+					<!--<i class="fa fa-plus"></i> 添加回访记录-->
+				<!--</button>-->
+				<a href="callBack">添加回访记录</a>
+
+				<!--<button class="update" id="btnEdit">-->
+					<!--<i class="fa fa-pencil-square-o"></i> 编辑-->
+				<!--</button>-->
+				<a href="editStuShow">编辑</a>
 			</div>
 		</div>
 		<div id="myTableAdmissions" class="myTableAdmissions"></div>
