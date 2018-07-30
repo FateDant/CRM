@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:46:"../application/admin/view/grid/PraiseGrid.html";i:1532402229;s:76:"D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view\public\meta.html";i:1532404238;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:46:"../application/admin/view/grid/PraiseGrid.html";i:1532656019;s:76:"D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view\public\meta.html";i:1532404238;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -47,7 +47,7 @@
 <body>
 	<div class="admissionsGrid-body">
 		<div class="admissionsGrid-body-top">
-			<span>口碑招生-</span> <span>学校名称</span>
+			<span>口碑招生-</span> <span><?php echo $school_name; ?></span>
 		</div>
 		<div class="acount-search">数据搜索</div>
 		<table class="search-container">

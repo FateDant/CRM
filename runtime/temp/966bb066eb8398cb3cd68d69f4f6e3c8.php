@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:44:"../application/admin/view/grid/UserGrid.html";i:1532510695;s:76:"D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view\public\meta.html";i:1532404238;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:44:"../application/admin/view/grid/UserGrid.html";i:1532656098;s:76:"D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view\public\meta.html";i:1532404238;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -86,7 +86,7 @@
 <body>
 	<div class="userGrid-body">
 		<div class="userGrid-body-top">
-			<span>账号管理及添加-</span> <span>南京校区</span>
+			<span>账号管理及添加-</span> <span><?php echo $school_name; ?></span>
 		</div>
 		<div class="acount-search">账号搜索</div>
 		<form action="selectUser" method="post">

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:46:"../application/admin/view/grid/CampusGrid.html";i:1532595342;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:46:"../application/admin/view/grid/CampusGrid.html";i:1532913349;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -41,7 +41,7 @@
 <body>
 	<div class="admissionsGrid-body">
 		<div class="admissionsGrid-body-top">
-			<span>校区招生-</span> <span>学校名称</span>
+			<span>校区招生-</span> <span><?php echo $school_name; ?></span>
 		</div>
 		<div class="acount-search">数据搜索</div>
 		<form action="stuInfo" method="post">
@@ -147,12 +147,16 @@
 		<div class="list-title">
 			<span>学员信息列表</span>
 			<div class="del-update">
-				<button class="addRecord" id="btnAddRecord">
-					<i class="fa fa-plus"></i> 添加回访记录
-				</button>
-				<button class="update" id="btnEdit">
-					<i class="fa fa-pencil-square-o"></i> 编辑
-				</button>
+
+				<!--<button class="addRecord" id="btnAddRecord">-->
+					<!--<i class="fa fa-plus"></i> 添加回访记录-->
+				<!--</button>-->
+				<a href="callBack">添加回访记录</a>
+
+				<!--<button class="update" id="btnEdit">-->
+					<!--<i class="fa fa-pencil-square-o"></i> 编辑-->
+				<!--</button>-->
+				<a href="editStuShow">编辑</a>
 			</div>
 		</div>
 		<div id="myTableAdmissions" class="myTableAdmissions"></div>

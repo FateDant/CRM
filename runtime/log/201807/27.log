@@ -1,0 +1,1871 @@
+---------------------------------------------------------------
+[ 2018-07-27T09:07:01+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:24:50+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:26:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:26:57+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]Missing argument 1 for think\Model::data(), called in D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\controller\CampusGrid.php on line 28 and defined
+---------------------------------------------------------------
+[ 2018-07-27T09:27:55+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:27:56+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:27:56+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:27:56+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:28:16+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:28:35+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:29:00+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:33:25+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ error ] [8]未定义变量: school_name
+---------------------------------------------------------------
+[ 2018-07-27T09:34:43+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ error ] [8]未定义变量: school_name
+---------------------------------------------------------------
+[ 2018-07-27T09:35:45+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ error ] [8]未定义变量: school_name
+---------------------------------------------------------------
+[ 2018-07-27T09:36:54+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ error ] [1]Class 'app\admin\controller\Session' not found
+---------------------------------------------------------------
+[ 2018-07-27T09:37:32+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:32+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:33+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:35+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:49+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:50+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:51+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:54+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:37:59+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:42:10+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:42:12+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:48:27+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:48:28+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:48:29+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:48:29+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:48:30+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:48:30+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:50:56+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:54:46+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zjl'  AND `pwd` = 'c33367701511b4f6020ec61ded352059' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:07+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zjl'  AND `pwd` = 'c33367701511b4f6020ec61ded352059' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:11+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:12+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:12+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:12+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:13+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:13+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:14+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:57:15+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:15+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:16+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:17+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:18+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:19+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:22+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `student_name` = '小红' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:58:58+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:08+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:16+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:21+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:21+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:23+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:23+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:25+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:25+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:26+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:28+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:29+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:30+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:32+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:32+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T09:59:49+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:10:31+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2018-07-27T10:12:00+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:12:32+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:39:31+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:39:53+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [1]Call to a member function toArray() on array
+---------------------------------------------------------------
+[ 2018-07-27T10:41:16+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:41:32+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:42:18+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:43:41+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:44:54+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:08+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:09+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:09+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:09+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: mes
+---------------------------------------------------------------
+[ 2018-07-27T10:45:36+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:45:37+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:12+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:12+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:12+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:23+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:46:42+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:47:06+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:48:05+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T10:48:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:49:07+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:50:43+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:51:21+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:51:36+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:51:45+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:52:35+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:53:19+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:53:19+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:53:28+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:54:22+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ error ] [1]Cannot use [] for reading
+---------------------------------------------------------------
+[ 2018-07-27T10:55:38+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:55:58+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:56:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:56:36+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:56:54+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:58:17+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T10:58:47+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '校区招生' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:00:56+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T11:06:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:06:43+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:07:57+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:08:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:08:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 1 [ RunTime:0.001000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T11:08:43+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:11:32+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:13:44+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001001s ]
+[ error ] [8]未定义变量: stuList
+---------------------------------------------------------------
+[ 2018-07-27T11:13:45+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: stuList
+---------------------------------------------------------------
+[ 2018-07-27T11:14:01+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: stuList
+---------------------------------------------------------------
+[ 2018-07-27T11:14:01+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: stuList
+---------------------------------------------------------------
+[ 2018-07-27T11:14:31+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: stuList
+---------------------------------------------------------------
+[ 2018-07-27T11:17:26+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:17:40+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:21:01+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:21:06+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:21:07+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:22:30+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addStudent
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `f_student` (`student_name` , `gender` , `education` , `current_state` , `wechat` , `mobile` , `location` , `qq` , `channel_id` , `online_consultant_id` , `course_consultant_id` , `first_visit_time` , `register_time` , `course_id` , `register_amount` , `visit_state` , `create_id` , `last_update_id` , `school_id` , `create_time` , `last_update_time`) VALUES ('小紫' , '女' , '大专' , '待业' , '666666' , '1318888888' , '广东' , '888888' , 3 , 6 , 4 , '2018-07-04 00:00:00' , '2018-07-05 00:00:00' , 3 , 33.33 , '未上门' , 7 , 7 , 2 , '2018-07-27 11:22:30' , '2018-07-27 11:22:30') [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:22:38+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:22:45+08:00 ] 127.0.0.1 GET /admin/CampusGrid/schoolInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:23:05+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:24:19+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:24:42+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:29:44+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:30:07+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:30:08+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:31:48+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:31:51+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T11:32:07+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:32:09+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T11:32:51+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:32:51+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:32:52+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:32:59+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:33:03+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T11:36:17+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:36:19+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ error ] [0]方法不存在:think\Request->onluy
+---------------------------------------------------------------
+[ 2018-07-27T11:36:29+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:37:46+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:37:49+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:38:35+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:38:36+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [4096]Object of class think\response\Json could not be converted to string
+---------------------------------------------------------------
+[ 2018-07-27T11:40:49+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:40:50+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, object given
+---------------------------------------------------------------
+[ 2018-07-27T11:42:54+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:42:56+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [2]getdate() expects parameter 1 to be long, object given
+---------------------------------------------------------------
+[ 2018-07-27T11:43:33+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:43:34+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [1]Call to undefined function app\admin\controller\getdata()
+---------------------------------------------------------------
+[ 2018-07-27T11:46:26+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:46:28+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [1]Call to undefined function app\admin\controller\getdata()
+---------------------------------------------------------------
+[ 2018-07-27T11:48:33+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:48:35+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:48:37+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:53:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:53:28+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:54:09+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:54:11+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:58:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:58:29+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T11:59:53+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:01:15+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addStudent
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `f_student` (`student_name` , `gender` , `education` , `current_state` , `wechat` , `mobile` , `location` , `qq` , `channel_id` , `online_consultant_id` , `course_consultant_id` , `first_visit_time` , `register_time` , `course_id` , `register_amount` , `visit_state` , `create_id` , `last_update_id` , `school_id` , `create_time` , `last_update_time`) VALUES ('小白' , '女' , '初中' , '在读学校' , '9999999' , '13188888888' , '南京' , '7777777' , 2 , 5 , 2 , '2018-07-05 00:00:00' , '2018-07-06 00:00:00' , 4 , 12.5 , '未上门' , 7 , 7 , 2 , '2018-07-27 12:01:15' , '2018-07-27 12:01:15') [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:01:19+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:01:19+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:01:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:01:22+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:02:10+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:02:11+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:04:03+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:04:06+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [8]未定义变量: stuInfo
+---------------------------------------------------------------
+[ 2018-07-27T12:04:48+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:04:50+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:05:12+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:05:16+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:06:21+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:06:22+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:06:32+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:06:34+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:07:04+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:07:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:07:21+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:07:39+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:07:41+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:36+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:37+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:40+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:42+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:44+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:46+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:58+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:08:59+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:09:01+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:10:37+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:10:40+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T12:10:43+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:10:45+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001001s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T12:10:47+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:10:58+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:11:01+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2018-07-27T12:11:35+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T12:11:38+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:34:57+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:37:14+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:38:01+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:38:03+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:38:07+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:38:11+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:38:13+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:42:08+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:42:09+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:42:14+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:42:25+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:46:15+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:46:16+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:46:20+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:46:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:47:53+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:47:54+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:47:55+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:47:55+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:47:58+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:48:00+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:50:39+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addStudent
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `f_student` (`student_name` , `gender` , `education` , `current_state` , `wechat` , `mobile` , `location` , `qq` , `channel_id` , `online_consultant_id` , `course_consultant_id` , `first_visit_time` , `register_time` , `course_id` , `register_amount` , `visit_state` , `create_id` , `last_update_id` , `school_id` , `create_time` , `last_update_time`) VALUES ('小芳' , '女' , '初中' , '在读学校' , '33333' , '11111111' , '上海' , '55555' , 3 , 6 , 4 , '2018-07-11 00:00:00' , '2018-07-06 00:00:00' , 2 , 33.33 , '已上门' , 7 , 7 , 2 , '2018-07-27 13:50:39' , '2018-07-27 13:50:39') [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:50:42+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:50:45+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:52:41+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:15+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:15+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:19+08:00 ] 127.0.0.1 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:22+08:00 ] 127.0.0.1 GET /admin/RegularGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:22+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:23+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:23+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:24+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:30+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:34+08:00 ] 127.0.0.1 POST /admin/UserGrid/selectUser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'zhangqiuyang' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:35+08:00 ] 127.0.0.1 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:37+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:38+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:53:54+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:58:49+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:58:53+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:59:31+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T13:59:35+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:02:50+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:03:12+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:04:03+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:04:21+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:04:22+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:05:06+08:00 ] 127.0.0.1 POST /admin/CampusGrid/stuInfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:05:25+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:05:42+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:07:46+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:07:58+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:08:19+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:08:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:08:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:08:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:08:20+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:16:41+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:28:31+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:29:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:29:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:29:24+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:29:24+08:00 ] 127.0.0.1 GET /admin/PraiseGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:29:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:30:57+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:34:01+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:46:07+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:46:10+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:46:14+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:47:53+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:48:04+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:48:11+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:48:59+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-27T14:49:04+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:01:50+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:16:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:16:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:16:28+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:16:39+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:16:54+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:17:49+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:17:50+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:14+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:15+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:16+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:16+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:16+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:46+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:46+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:46+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:18:46+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:19:44+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:22:01+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:22:02+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:22:02+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:22:02+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:22:03+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:22:18+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:23:41+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:25:23+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 3 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:42:43+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:42:56+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:43:58+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:43:58+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:45:08+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:46:00+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:46:10+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:49:41+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: status
+---------------------------------------------------------------
+[ 2018-07-27T15:50:45+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:51:22+08:00 ] 127.0.0.1 GET /admin/CampusGrid/stuList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` WHERE  `channel_category` = '常规招生' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_student` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_student` WHERE  `channel_id` IN (1,2,3,4,5,6,7)  AND `school_id` = 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T15:51:28+08:00 ] 127.0.0.1 GET /admin/CampusGrid/revisit
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `school_id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:16:44+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2018-07-27T16:16:45+08:00 ] 127.0.0.1 POST /admin/CampusGrid/getUser.action
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2018-07-27T16:18:43+08:00 ] 127.0.0.1 POST /admin/CampusGrid/getUser.action
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2018-07-27T16:38:15+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.002000s ]
+[ error ] [0]数据表字段不存在:[update_time]
+---------------------------------------------------------------
+[ 2018-07-27T16:39:21+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:40:02+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:43:28+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:43:42+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'create_time' doesn't have a default value
+---------------------------------------------------------------
+[ 2018-07-27T16:44:02+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.002001s ]
+[ error ] [0]数据表字段不存在:[update_time]
+---------------------------------------------------------------
+[ 2018-07-27T16:44:07+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:44:19+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [0]数据表字段不存在:[update_time]
+---------------------------------------------------------------
+[ 2018-07-27T16:44:53+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:45:04+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'create_time' doesn't have a default value
+---------------------------------------------------------------
+[ 2018-07-27T16:45:32+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:45:39+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.002000s ]
+[ error ] [0]数据表字段不存在:[update_time]
+---------------------------------------------------------------
+[ 2018-07-27T16:47:48+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:48:18+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `log_visit` (`visit_time` , `visit_way` , `will_state` , `log_detail` , `create_id` , `student_id` , `create_time`) VALUES ('2018-07-03 00:00:00' , 'QQ' , '一般有意向' , '!!!!' , 7 , 1 , '2018-07-27 16:48:18') [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:49:36+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:52:18+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:52:27+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:52:43+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `log_visit` (`visit_time` , `visit_way` , `will_state` , `log_detail` , `create_id` , `student_id` , `create_time`) VALUES ('2018-07-02 00:00:00' , '电话' , '非常有意向' , '!!!!' , 7 , 1 , '2018-07-27 16:52:43') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:52:50+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:52:54+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'visit_way' at row 1
+---------------------------------------------------------------
+[ 2018-07-27T16:53:29+08:00 ] 127.0.0.1 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-27T16:54:07+08:00 ] 127.0.0.1 POST /admin/CampusGrid/addCallBack
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log_visit` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `log_visit` (`visit_time` , `visit_way` , `will_state` , `log_detail` , `create_id` , `student_id` , `create_time`) VALUES ('2018-07-04 00:00:00' , '电话' , '非常有意向' , '????????' , 7 , 1 , '2018-07-27 16:54:07') [ RunTime:0.006001s ]

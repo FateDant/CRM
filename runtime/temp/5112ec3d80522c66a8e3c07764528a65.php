@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:47:"../application/admin/view/grid/RegularGrid.html";i:1532486568;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:47:"../application/admin/view/grid/RegularGrid.html";i:1532656060;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -42,7 +42,7 @@
 <body>
 	<div class="admissionsGrid-body">
 		<div class="admissionsGrid-body-top">
-			<span>常规招生-</span> <span>学校名称</span>
+			<span>常规招生-</span> <span><?php echo $school_name; ?></span>
 		</div>
 		<div class="acount-search">数据搜索</div>
 		<table class="search-container">
