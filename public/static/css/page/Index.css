@@ -2,6 +2,7 @@
 body {
 	min-width: 1000px;
 	overflow: hidden;
+	position: relative;
 }
 
 .main {
@@ -57,29 +58,27 @@ table>tbody>tr:first-child {
 /* 更多 */
 .main .nav .btnUser .user_more {
 	border-style: solid dashed;
-	border-color: transparent transparent transparent #c2c2c2;
+	border-color: #c2c2c2 transparent transparent transparent;
 	overflow: hidden;
 	cursor: pointer;
 	transition: all .2s;
 	-webkit-transition: all .2s;
 	position: absolute;
-	top: 13px;
+	top: 16px;
 	border-width: 8px;
 	right: -5px;
 }
-.user_more:hover{
-	/* transform:rotate(90deg); */
-}
+
 /* 用户隐藏选择 */
 .main .nav .btnUser .ddl {
 	position: absolute;
-    top: 58px;
-    right: -40px;
-    width: 150px;
-    background-color: #2858ac;
-    font-size: 15px;
-    padding-left: 0;
-    display:none;
+	top: 54px;
+	right: -40px;
+	width: 150px;
+	background-color: #2858ac;
+	font-size: 15px;
+	padding-left: 0;
+	display: none;
 }
 
 .ddl>li {

@@ -170,15 +170,8 @@ class CampusGrid extends Controller {
         foreach ($onlineConsultantInfo as $key => $value) {
             $userId[] = $value->toArray()['user_id'];
         }
-
-        //获取用户ID
+        //获取用户信息
         $userInfo = f_user::all($userId);
-
-        if (!$onlineConsultantInfo) {
-            $status  = 0;
-            $message = '没有数据';
-            return json(['status' => $status, 'message' => $message]);
-        }
 
         foreach ($userInfo as $key => $value) {
             $data[] = $value->toArray();
@@ -261,7 +254,6 @@ class CampusGrid extends Controller {
             $stuList[] = $value->toArray();
         }
 
-//        var_dump($stuList);die;
         foreach ($stuList as $key => $value) {
             $channel_list[]           = f_channel::get(['channel_id' => $value['channel_id']])->toArray();
             $online_consultant_list[] = f_user::get(['user_id' => $value['online_consultant_id']])->toArray();
@@ -278,10 +270,11 @@ class CampusGrid extends Controller {
     }
 
     /**
+     * 学生信息获取
      * @param Request $request
      * @return \think\response\Json
+     * @throws \think\Exception
      * @throws \think\exception\DbException
-     * 学生信息获取
      */
     public function stuInfo(Request $request) {
         $status  = 1;
@@ -431,26 +424,6 @@ class CampusGrid extends Controller {
         $stu_mes['first_visit_time'] = date('m/d/Y', strtotime($stu_mes['first_visit_time']));
         $stu_mes['register_time']    = date('m/d/Y', strtotime($stu_mes['register_time']));
 
-        //将数据分配给模板
-//        $data = [
-//            'student_id'           => $stu_mes['student_id'],
-//            'gender'               => $stu_mes['gender'],
-//            'education'            => $stu_mes['education'],
-//            'current_state'        => $stu_mes['current_state'],
-//            'wechat'               => $stu_mes['wechat'],
-//            'mobile'               => $stu_mes['mobile'],
-//            'location'             => $stu_mes['location'],
-//            'qq'                   => $stu_mes['qq'],
-//            'channel_id'           => $stu_mes['channel_id'],
-//            'online_consultant_id' => $stu_mes['online_consultant_id'],
-//            'course_consultant_id' => $stu_mes['course_consultant_id'],
-//            'first_visit_time'     => $stu_mes['first_visit_time'],
-//            'register_time'        => $stu_mes['register_time'],
-//            'course_id'            => $stu_mes['course_id'],
-//            'register_amount'      => $stu_mes['register_amount'],
-//            'visit_state'          => $stu_mes['visit_state']
-//        ];
-
         return json(['status' => $status, 'message' => $message, 'data' => $stu_mes]);
 
         //模板变量赋值
@@ -514,4 +487,5 @@ class CampusGrid extends Controller {
         }
         return json(['status' => $status, 'message' => $message]);
     }
+
 }

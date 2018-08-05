@@ -96,7 +96,7 @@ $(function(){
 		}
 	});
 	// 文本框注册等各种事件
-	$("input[type='text'],input[type='password']").focus(function() {// 获取焦点
+	$("input[type='password']").focus(function() {// 获取焦点
 		// 隐藏当前文本框上面的错误提示
 		hideErrorTip(this);// 传入当前触发事件的文本框
 	}).blur(function() {// 失去焦点
@@ -126,7 +126,7 @@ function postCallbackInfo() {
 	var btnSave = $("#btnSave");
 	// 如果按钮被禁用或者是阻塞状态就退出保存事件
 	if (btnSave.hasClass("btnError") || btnSave.hasClass("btnSuccess") || btnSave.hasClass("btnDisable"))
-		//return;// 退出整个方法
+		return;// 退出整个方法
 	
 	// 遍历所有输入框
 	/*$("input[type='text'],input[type='password']").each(function() {
@@ -139,7 +139,7 @@ function postCallbackInfo() {
 	checkDdl("call-user");
 	// 如果页面中存在错误
 	if (errCount > 0)
-		//return;// 退出整个方法
+		return;// 退出整个方法
 	// 按钮点击后立即禁用，防止用户短时间快速反复点击
 	setTimeout(function() {
 		btnSave.addClass("btnDisable").val("正在保存，请稍后……");
@@ -149,7 +149,7 @@ function postCallbackInfo() {
 		call_way : $("#call-way .ddlItemSelected").text(),
 		stu_will : $("#stu-will .ddlItemSelected").text(),
 		call_record : $("#callback-content-container").val(),
-		call_time : $("#callback-time").val(),
+		call_time : $("#callback-time").datepicker().val(),
 		call_userid : $("#call-user .ddlItemSelected").attr("key"),
 		stu_id :window.parent.editObj.student_id
 	}, function(res) {
@@ -160,15 +160,13 @@ function postCallbackInfo() {
 			// 隐藏弹出层
 			top.topDialog.hide();
 			top.topTips.show({
-				txtTips : "开通用户成功",
-				top : 0,
+				txtTips : "操作成功",
 				classTips : "rightTips"
 			});
 
 		} else {
 			top.topTips.show({
-				txtTips : "开通用户失败",
-				top : 0,
+				txtTips : "操作成功失败",
 				classTips : "errorTips"
 			});
 		}

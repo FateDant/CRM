@@ -110,51 +110,45 @@ function hideErrorTip(txtObj) {
 // 登录按钮点击事件
 function btnLogin_onclick() {
 	var btnLogin = $("#btnLogin");
-	// // 如果按钮被禁用或者是阻塞状态就退出登录事件
-	// if (btnLogin.hasClass("btnError") || btnLogin.hasClass("btnSuccess")
-	// 		|| btnLogin.hasClass("btnDisable"))
-	// 	return;// 退出整个方法
-	// // 错误统计
-	// var errCount = 0;
-	// // 遍历所有输入框
-	// $("input[type='text'],input[type='password']").each(function() {
-	// 	// 如果当前文本框出错就累加错误数量
-	// 	errCount += checkTxt(this);
-	// });
-	// // 如果页面中存在错误
-	// if (errCount > 0)
-	// 	return;// 退出整个方法
-	// // 按钮点击后立即禁用，防止用户短时间快速反复点击
-	// btnLogin.addClass("btnDisable").val("正在登录，请稍后……");
-	$.post("checkLogin", {
+	// 如果按钮被禁用或者是阻塞状态就退出登录事件
+	if (btnLogin.hasClass("btnError") || btnLogin.hasClass("btnSuccess")
+			|| btnLogin.hasClass("btnDisable"))
+		return;// 退出整个方法
+	// 错误统计
+	var errCount = 0;
+	// 遍历所有输入框
+	$("input[type='text'],input[type='password']").each(function() {
+		// 如果当前文本框出错就累加错误数量
+		errCount += checkTxt(this);
+	});
+	// 如果页面中存在错误
+	if (errCount > 0)
+		return;// 退出整个方法
+	// 按钮点击后立即禁用，防止用户短时间快速反复点击
+	btnLogin.addClass("btnDisable").val("正在登录，请稍后……");
+	$.post("login.action", {
 		user_name : $("#txtUserName").val(),
 		pwd : $("#txtPassword").val(),
 		code : $("#chkRM").val()
 	}, function(json) {
-        if (json.status == 7) {
-            alert(json.message);
-        } else {
-            alert(json.message);
-        }
-    });
 		// 服务器响应后解锁按钮
-		// btnLogin.removeClass("btnDisable");
-		// // 如果登录成功
-		// if (json.isSuccess == "true") {
-		// 	util.cookie.set("lastLoginName", $("#chkRMW").is(":checked") ? $(
-		// 			"#txtUserName").val() : "");
-		// 	btnLogin.addClass("btnSuccess").val("登录成功，请稍后……");
-		// 	setTimeout(function() {
-		// 		// 页面跳转
-		// 		location.href = "jsp/page/Index.jsp";
-		// 	}, 500);
-		// } else {
-		// 	btnLogin.addClass("btnError").val("登录失败，原因：" + json.errMsg);
-		// 	setTimeout(function() {
-		// 		btnLogin.removeClass("btnError").val("登录");
-		// 		// 刷新验证码
-		// 		loadImg();
-		// 	}, 2000);
-		// }
-	// });
+		btnLogin.removeClass("btnDisable");
+		// 如果登录成功
+		if (json.isSuccess == "true") {
+			util.cookie.set("lastLoginName", $("#chkRMW").is(":checked") ? $(
+					"#txtUserName").val() : "");
+			btnLogin.addClass("btnSuccess").val("登录成功，请稍后……");
+			setTimeout(function() {
+				// 页面跳转
+				location.href = "jsp/page/Index.jsp";
+			}, 500);
+		} else {
+			btnLogin.addClass("btnError").val("登录失败，原因：" + json.errMsg);
+			setTimeout(function() {
+				btnLogin.removeClass("btnError").val("登录");
+				// 刷新验证码
+				loadImg();
+			}, 2000);
+		}
+	});
 }

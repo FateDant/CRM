@@ -10,5 +10,4 @@ class f_student extends Model {
     protected $autoWriteTimestamp = 'datetime';
     protected $createTime = 'create_time';
     protected $updateTime = 'last_update_time';
-
 }

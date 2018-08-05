@@ -1,5 +1,6 @@
 var topDialog;
 var LICONTENT;
+var IP;
 $(function() {
 	// 初始化弹出层
 	topDialog = new Dialog({
@@ -12,7 +13,6 @@ $(function() {
 	// 显示更多信息
 	$("#btnUser").click(function() {
 		$("#showDdl").fadeToggle();
-		$("#userMore").css("transform", "rotate(90deg)");
 	});
 	// 跳转登录页
 	$(".loadIndex").click(function() {
@@ -24,30 +24,31 @@ $(function() {
 			location.href = $("base").attr("href");
 		});
 	});
+	IP="192.168.1.227";
 	// 生成菜单
 	new Menu({
 		renderTo : "leftMenu",
 		dataSource : [ {
 			name : "首页",
-			url : "IndexCharts\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/IndexCharts.jsp"
 		}, {
 			name : "数据搜索",
-			url : "DataGrid\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/DataGrid.jsp"
 		}, {
 			name : "常规招生",
-			url : "RegularGrid\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/RegularGrid.jsp"
 		}, {
 			name : "院校招生",
-			url : "CollegeGrid\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/CollegeGrid.jsp"
 		}, {
 			name : "口碑招生",
-			url : "PraiseGrid\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/PraiseGrid.jsp"
 		}, {
 			name : "校区招生",
-			url : "CampusGrid\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/CampusGrid.jsp"
 		}, {
 			name : "系统管理",
-			url : "UserGrid\\index"
+			url : "http://"+IP+"/CRM/jsp/grid/UserGrid.jsp"
 		} ],
 		onClick : function(li) {
 			$("#mainIframe").attr("src", $(li).attr("url"));

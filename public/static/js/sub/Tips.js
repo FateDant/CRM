@@ -1,18 +1,20 @@
+//操作提示
 function Tips(args) {
 	try {
 		if (!args.renderTo)
 			throw "renderTo元素不存在，请检查renderTo是否存在";
 	} catch (e) {
-		alert("tips初始化失败，原因：" + e);
+		throw ("tips初始化失败，原因：" + e);
 		return;
 	}
 	this.init(args);
 }
 // 初始化参数
 Tips.prototype.init = function(args) {
-	this.renderTo = $(args.renderTo);// 参数对象为body
+	// 参数对象为body
+	this.renderTo = $(args.renderTo);
 	this.top = args.top;
-	this.originalTop = args.originalTop == undefined ? 6.25 : args.originalTop;
+	this.originalTop = args.originalTop == undefined ? 0 : args.originalTop;
 };
 // 生成元素
 Tips.prototype.build = function() {
@@ -28,7 +30,7 @@ Tips.prototype.show = function(args) {
 	$(".tips").text(args.txtTips);
 	// 定位提示
 	this.tips.removeAttr("style").css({
-		top : args.top + "em"
+		top : args.top + "px"
 	});
 	this.tips.removeClass("hidden").css("opacity", 0);
 	this.tips.addClass(args.classTips);
@@ -36,19 +38,17 @@ Tips.prototype.show = function(args) {
 	if (util.isLTIE10()) {
 		// animate实现动画
 		t.animate({
-			opacity : 1,
-			top : args.originalTop + "em"
+			opacity : 1
 		}, 500);
 	} else {
 		t.css("transition", "all 250ms");
 		t.css({
-			opacity : 1,
-			top : args.originalTop + "em"
+			opacity : 1
 		});
 	}
 	setTimeout(function() {
 		t.hide();
-	}, 3000);
+	}, 2000);
 };
 // 隐藏提示
 Tips.prototype.hide = function() {
@@ -56,14 +56,12 @@ Tips.prototype.hide = function() {
 	if (util.isLTIE10()) {
 		// animate实现动画
 		t.animate({
-			opacity : 0,
-			top : args.top + "em"
+			opacity : 0
 		}, 300);
 	} else {
 		// 渐变
 		t.css({
-			opacity : 0,
-			top : args.top + "em"
+			opacity : 0
 		});
 	}
 	// 动画结束后隐藏元素

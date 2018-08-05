@@ -4,7 +4,6 @@ $(function() {
 	// 时间组件
 	$("#startDate").datepicker();
 	$("#endDate").datepicker();
-	loadGrid();
 	// 全查询
 	$("#btnSearch").click(function() {
 		// 加载表格
@@ -17,58 +16,54 @@ $(function() {
 		top.topDialog.show({
 			title : "添加用户",
 			width : 700,
-			height : 668,
-			url : "dialog/AddUser.html"
+			height : 690,
+			url : "jsp/dialog/AddUser.jsp"
 		});
 	});
 
 	// 删除
-	$("#btnDel").click(
-			function() {
-				// 如果当前按钮被禁用
-				if ($(this).hasClass("btnDisable"))
-					return;// 退出点击事件
-				// 选中行中要删除的用户id
-				var user_id = $(".gridSelected>td[alias='user_id']").attr(
-						"originalvalue");
-				top.topDialog.show({
-					width : 400,
-					height : 300,
-					confirm : true,
-					title : "删除用户",
-					text : "用户删除后无法恢复,请确认.",
-					onClickYes : function() {
-						$.post("delUser.action", {
-							user_id : user_id
-						}, function(res) {
-							if (res.isSuccess == "true") {
-								// 隐藏弹出层
-								top.topDialog.hide();
-								// 刷新表格
-								userGrid.reload(1);
-								top.topTips.show({
-									txtTips : "删除成功",
-									top : 0,
-									classTips : "rightTips"
-								});
-							} else {
-								top.topTips.show({
-									txtTips : "删除失败" + res.errMsg,
-									top : 0,
-									classTips : "rightTips"
-								});
-							}
+	$("#btnDel").click(function() {
+		// 如果当前按钮被禁用
+		if ($(this).hasClass("btnDisable"))
+			return;// 退出点击事件
+		// 选中行中要删除的用户id
+		var user_id = $(".gridSelected>td[alias='user_id']").attr("originalvalue");
+		top.topDialog.show({
+			width : 400,
+			height : 300,
+			confirm : true,
+			title : "删除用户",
+			text : "用户删除后无法恢复,请确认.",
+			onClickYes : function() {
+				$.post("delUser.action", {
+					user_id : user_id
+				}, function(res) {
+					if (res.isSuccess == "true") {
+						// 隐藏弹出层
+						top.topDialog.hide();
+						// 刷新表格
+						userGrid.reload(1);
+						top.topTips.show({
+							txtTips : "删除成功",
+							classTips : "rightTips"
+						});
+					} else {
+						top.topTips.show({
+							txtTips : "删除失败" + res.errMsg,
+							classTips : "rightTips"
 						});
 					}
 				});
-			});
+			}
+		});
+	});
 
 	// 编辑
 	$("#btnEdit").click(function() {
 		// 如果当前按钮被禁用
 		if ($(this).hasClass("btnDisable"))
 			return;// 退出点击事件
-		
+
 		// 编辑选中行中的每一个td
 		$("#myTableUser .gridSelected>td").each(function(i, t) {
 			var alias = $(t).attr("alias");
@@ -80,8 +75,8 @@ $(function() {
 		top.topDialog.show({
 			title : "编辑用户",
 			width : 700,
-			height : 618,
-			url : "dialog/AddUser.html"
+			height : 690,
+			url : "jsp/dialog/AddUser.jsp"
 		});
 
 	});
@@ -104,14 +99,14 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		onClick : function(t) {
 			// alert(t.key); 此处k是键值对为key value的对象
-			t.key == "-1" ? $("#select-depart").addClass("txtError") : $(
-					"#select-depart").removeClass("txtError");
-		},onComplete : function() {
-			
+			t.key == "-1" ? $("#select-depart").addClass("txtError") : $("#select-depart").removeClass("txtError");
+		},
+		onComplete : function() {
+
 		}
 	});
 	// 职位下拉列表
@@ -125,20 +120,33 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			role_id : "-1",
-			role_name : "选择职位"
+			role_name : "未选择"
 		} ],
 		onClick : function(t) {
-			t.key == "-1" ? $("#select-role").addClass("txtError") : $(
-					"#select-role").removeClass("txtError");
+			t.key == "-1" ? $("#select-role").addClass("txtError") : $("#select-role").removeClass("txtError");
 			$("#select-role").attr("key", t.key);
 		},
 		onComplete : function() {
 			if (top.editObj != null)
 				fillText();
+			loadGrid();
 		}
 	});
-
+	//重置功能
+	$("#btnReset").click(function(){
+		$("#txtUser").val("");
+		$("#txtMobile").val("");
+		resize("select-role");
+		$("#startDate").val("");
+		$("#endDate").val("");
+	});
 });
+//重置功能 不能广泛使用
+function resize(obj) {
+	$("#" + obj + " .ddlItem").removeClass("ddlItemSelected");
+	$("#" + obj + " .ddlItem[key=-1]").addClass("ddlItemSelected");
+	$("#" + obj + " .ddlTxt").text($("#" + obj + " .ddlItem[key=-1]").text());
+}
 function loadGrid() {
 	// 禁用添加和编辑按钮
 	$("#btnDel,#btnEdit").addClass("btnDisable");
@@ -147,24 +155,34 @@ function loadGrid() {
 	// 用户真实姓名
 	var txtEmpName = $("#txtUser").val();
 	if (txtEmpName != "")
-		condition += "U.USER_NAME LIKE '%" + txtEmpName + "%' AND ";
+		condition += "T2.USER_NAME LIKE '%" + txtEmpName + "%' AND ";
+	// 电话
 	var txtMobile = $("#txtMobile").val();
 	if (txtMobile != "")
-		condition += "U.MOBILE LIKE '%" + txtMobile + "%' AND ";
-	// 用户部门
-	/*
-	 * var selectEmp = $("#select-depart .ddlItemSelected").attr("key"); if
-	 * (selectEmp != "-1") condition += "U.USER_EMP = '" + selectEmp + "' AND ";
-	 */
+		condition += "T2.MOBILE LIKE '%" + txtMobile + "%' AND ";
 	// 用户职位
-	/*
-	 * var selectRole = $("#select-role").val(); if (selectRole != "") condition +=
-	 * "U.MAILBOX LIKE '%" + selectRole + "%' AND ";
-	 */
+	var selectRole = $("#select-role .ddlItemSelected").attr("key");
+	if (selectRole != "-1" && selectRole != undefined)
+		condition += "T2.ROLE_ID=" + selectRole + " AND ";
+	var sDate = $("#startDate").val();
+	var eDate = $("#endDate").val();
+	if (sDate != "" && eDate != "") {
+		var dsDate = sDate.substring(6, 10) + "-" + sDate.substring(0, 2) + "-" + sDate.substring(3, 5);
+		var deDate = eDate.substring(6, 10) + "-" + eDate.substring(0, 2) + "-" + eDate.substring(3, 5);
+		condition += "T2.CREATE_TIME BETWEEN '" + dsDate + " 00:00:00' AND '" + deDate + " 23:59:59' AND ";
+	}
 	condition += "1=1";
 	userGrid = new Grid({
 		renderTo : "myTableUser",
 		columns : [ {
+			name : "校区id",
+			alias : "school_id",
+			hide : true
+		}, {
+			name : "校区",
+			alias : "school_name",
+			align : "center"
+		}, {
 			name : "用户编号",
 			alias : "user_id",
 			hide : true
@@ -178,7 +196,8 @@ function loadGrid() {
 			align : "center",
 		}, {
 			name : "密码",
-			alias : "pwd"
+			alias : "pwd",
+			hide : true
 		}, {
 			name : "性别",
 			alias : "gender",

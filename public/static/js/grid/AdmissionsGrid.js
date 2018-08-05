@@ -70,12 +70,11 @@ $(function() {
 		},
 		preloadItem : [ {
 			school_id : "-1",
-			school_name : "请选择校区"
+			school_name : "未选择"
 		} ],
 		onClick : function() {
 			var schoolsType = $("#selectSchool .ddlItemSelected").attr("key");
-			schoolsType == "-1" ? $("#selectSchool").addClass("btnError") : $(
-					"#selectSchool").removeClass("btnError");
+			schoolsType == "-1" ? $("#selectSchool").addClass("btnError") : $("#selectSchool").removeClass("btnError");
 		},
 		onComplete : function() {
 
@@ -91,17 +90,16 @@ $(function() {
 		},
 		preloadItem : [ {
 			channel_id : "-1",
-			channel_name : "请选择渠道"
+			channel_name : "未选择"
 		} ],
 		onClick : function() {
-			var channelsType = $("#select-channel .ddlItemSelected")
-					.attr("key");
-			channelsType == "-1" ? $("#select-channel").addClass("btnError")
-					: $("#select-channel").removeClass("btnError");
+			var channelsType = $("#select-channel .ddlItemSelected").attr("key");
+			channelsType == "-1" ? $("#select-channel").addClass("btnError") : $("#select-channel").removeClass("btnError");
 		},
 		onComplete : function() {
-			if (top.editObj != null)
-				fillText();
+			/*
+			 * if (top.editObj != null) fillText();
+			 */
 		}
 	});
 	// 生成在线咨询师下拉列表
@@ -118,12 +116,12 @@ $(function() {
 		} ],
 		onClick : function() {
 			var userType = $("#select-online .ddlItemSelected").attr("key");
-			userType == "-1" ? $("#select-online").addClass("btnError") : $(
-					"#select-online").removeClass("btnError");
+			userType == "-1" ? $("#select-online").addClass("btnError") : $("#select-online").removeClass("btnError");
 		},
 		onComplete : function() {
-			if (top.editObj != null)
-				fillText();
+			/*
+			 * if (top.editObj != null) fillText();
+			 */
 		}
 	});
 	// 生成学历下拉列表
@@ -154,7 +152,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		onComplete : function() {
 		}
@@ -181,7 +179,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "选择状态"
+			value : "未选择"
 		} ]
 	});
 	// 生成意向下拉列表
@@ -189,16 +187,13 @@ $(function() {
 		renderTo : "select-stuAtt",
 		dataSource : [ {
 			key : "1",
-			value : "非常有意向"
+			value : "已上门"
 		}, {
 			key : "2",
-			value : "一般有意向"
+			value : "未上门"
 		}, {
 			key : "3",
-			value : "意向不明"
-		}, {
-			key : "4",
-			value : "无意向"
+			value : "已报名"
 		} ],
 		defaultSelected : "-1",
 		preloadItem : [ {
@@ -224,8 +219,7 @@ $(function() {
 		} ],
 		onClick : function() {
 			var userType = $("#select-courseCon .ddlItemSelected").attr("key");
-			userType == "-1" ? $("#select-courseCon").addClass("btnError") : $(
-					"#select-courseCon").removeClass("btnError");
+			userType == "-1" ? $("#select-courseCon").addClass("btnError") : $("#select-courseCon").removeClass("btnError");
 		},
 		onComplete : function() {
 			if (top.editObj != null)
@@ -244,7 +238,7 @@ $(function() {
 		$("#txtStu").val("");
 		$("#txtMobile").val("");
 		$("#startDate").val("");
-		$("#endDate").val();
+		$("#endDate").val("");
 		// 下拉列表重置
 		resize("select-school");
 		resize("select-channel");
@@ -279,7 +273,7 @@ function loadGrid() {
 		condition += "T2.STUDENT_NAME LIKE '%" + txtStu + "%' AND ";
 	// 渠道
 	var txtChannel = $("#select-channel .ddlItemSelected").attr("key");
-	if (txtChannel != "-1") {
+	if (txtChannel != "-1" && txtChannel != undefined) {
 		condition += "T2.CHANNEL_ID =" + txtChannel + " AND ";
 	}
 	// 学生电话
@@ -288,173 +282,163 @@ function loadGrid() {
 		condition += "T2.MOBILE LIKE '%" + txtMobile + "%' AND ";
 	// 在线咨询师
 	var txtOnline = $("#select-online .ddlItemSelected").attr("key");
-	if (txtOnline != "-1")
+	if (txtOnline != "-1" && txtOnline != undefined)
 		condition += "T2.ONLINE_CONSULTANT_ID =" + txtOnline + " AND ";
 	// 学历
 	var txtEdu = $("#select-edu .ddlItemSelected").attr("key");
 	if (txtEdu != "-1")
-		condition += "T2.EDUCATION ="
-				+ $("#select-edu .ddlItemSelected").text() + " AND ";
+		condition += "T2.EDUCATION ='" + $("#select-edu .ddlItemSelected").text() + "' AND ";
 	// 学员状态
 	var txtState = $("#select-stuState .ddlItemSelected").attr("key");
 	if (txtState != "-1")
-		condition += "T2.CURRENT_STATE ="
-				+ $("#select-stuState .ddlItemSelected").text() + " AND ";
+		condition += "T2.CURRENT_STATE ='" + $("#select-stuState .ddlItemSelected").text() + "' AND ";
 	// 学员意向
 	var txtWill = $("#select-stuAtt .ddlItemSelected").attr("key");
 	if (txtWill != "-1")
-		condition += "T2.WILL_STATE ="
-				+ $("#select-stuAtt .ddlItemSelected").text() + " AND ";
+		condition += "T2.VISIT_STATE ='" + $("#select-stuAtt .ddlItemSelected").text() + "' AND ";
 	// 课程顾问
 	var txtConsult = $("#select-courseCon .ddlItemSelected").attr("key");
-	if (txtConsult != "-1")
+	if (txtConsult != "-1" && txtConsult != undefined)
 		condition += "T2.COURSE_CONSULTANT_ID =" + txtConsult + " AND ";
 	// 咨询日期
 	var sDate = $("#startDate").val();
 	var eDate = $("#endDate").val();
 	if (sDate != "" && eDate != "") {
-		var dsDate = sDate.substring(6, 10) + "-" + sDate.substring(0, 2) + "-"
-				+ sDate.substring(3, 5);
-		var deDate = eDate.substring(6, 10) + "-" + eDate.substring(0, 2) + "-"
-				+ eDate.substring(3, 5);
-		condition += "T2.CREATE_TIME BETWEEN '" + dsDate + " 00:00:00.0' AND '"
-				+ deDate + " 23:59:59.0' AND ";
+		condition += "T2.CONSULT_TIME BETWEEN '" + sDate + "' AND '" + eDate + "' AND ";
 	}
 	// 判断是否是数据搜索或是其他几种渠道
 	if (window.parent.LICONTENT != "数据搜索")
-		condition += "T2.CHANNEL_CATEGORY='" + window.parent.LICONTENT
-				+ "' AND 1=1";
+		condition += "T2.CHANNEL_CATEGORY='" + window.parent.LICONTENT + "' AND 1=1";
 	else
 		condition += "1=1";
-	studentGrid = new Grid(
-			{
-				renderTo : "myTableAdmissions",
-				columns : [ {
-					name : "序号",
-					alias : "student_id",
-					hide : true
-				}, {
-					name : "咨询日期",
-					alias : "consult_time",
-					align : "center",
-				}, {
-					name : "姓名",
-					alias : "student_name",
-					align : "center",
-				}, {
-					name : "学历",
-					alias : "education"
-				}, {
-					name : "性别",
-					alias : "gender"
-				}, {
-					name : "电话",
-					alias : "mobile"
-				}, {
-					name : "渠道id",
-					alias : "channel_id",
-					hide : true
-				}, {
-					name : "渠道",
-					alias : "channel_name"
-				}, {
-					name : "录入人id",
-					alias : "create_id",
-					hide : true
-				}, {
-					name : "录入人",
-					alias : "create_name"
-				}, {
-					name : "在线咨询师id",
-					alias : "online_consultant_id",
-					hide : true
-				}, {
-					name : "在线咨询师",
-					alias : "online_name"
-				}, {
-					name : "课程顾问id",
-					alias : "course_consultant_id",
-					hide : true
-				}, {
-					name : "课程顾问",
-					alias : "consultant_name"
-				}, {
-					name : "上门时间",
-					alias : "first_visit_time"
-				}, {
-					name : "报名时间",
-					alias : "register_time"
-				}, {
-					name : "报名课程id",
-					alias : "course_id",
-					hide : true
-				}, {
-					name : "报名课程",
-					alias : "course_name"
-				}, {
-					name : "费用",
-					alias : "register_amount"
-				}, {
-					name : "学员状态",
-					alias : "visit_state"
-				}, {
-					name : "学员意向",
-					alias : "will_state",
-					align : "center"
-				}, {
-					name : "创建时间",
-					alias : "create_time",
-					align : "center",
-					hide : true
-				}, {
-					name : "备注",
-					alias : "des"
-				}, {
-					name : "目前现状",
-					alias : "current_state",
-					hide : true
-				}, {
-					name : "微信",
-					alias : "wechat",
-					hide : true
-				}, {
-					name : "QQ",
-					alias : "qq",
-					hide : true
-				}, {
-					name : "位置",
-					alias : "location",
-					hide : true
-				} ],
-				dataSource : "getStudentsByPage.action",
-				postData : {
-					condition : condition
-				},
-				onRowClick : function(row) {
-					// 获取表格中的选中行
-					var row = $("#myTableAdmissions .gridSelected");
-					// 如果表中有行被选中
-					if (row.length > 0) {
-						// 删除禁用按钮样式
-						$(".btnDisable").removeClass("btnDisable");
-						$("#myTableCallback").removeClass("hidden");
-						/* 获取选中行学生id */
-						STUID = $(".gridSelected .gridCell[alias='student_id']")
-								.text();
-						loadCallback();
-					} else {
-						// 给编辑和删除按钮加上禁用样式
-						$("#btnEdit,#btnAddRecord").addClass("btnDisable");
-						$("#myTableCallback").addClass("hidden");
-					}
-				}
-			});
+	studentGrid = new Grid({
+		renderTo : "myTableAdmissions",
+		columns : [ {
+			name : "序号",
+			alias : "student_id",
+			hide : true
+		}, {
+			name : "咨询日期",
+			alias : "consult_time",
+			align : "center",
+		}, {
+			name : "姓名",
+			alias : "student_name",
+			align : "center",
+		}, {
+			name : "学历",
+			alias : "education"
+		}, {
+			name : "性别",
+			alias : "gender"
+		}, {
+			name : "电话",
+			alias : "mobile"
+		}, {
+			name : "渠道id",
+			alias : "channel_id",
+			hide : true
+		}, {
+			name : "渠道",
+			alias : "channel_name"
+		}, {
+			name : "录入人id",
+			alias : "create_id",
+			hide : true
+		}, {
+			name : "录入人",
+			alias : "create_name"
+		}, {
+			name : "在线咨询师id",
+			alias : "online_consultant_id",
+			hide : true
+		}, {
+			name : "在线咨询师",
+			alias : "online_name"
+		}, {
+			name : "课程顾问id",
+			alias : "course_consultant_id",
+			hide : true
+		}, {
+			name : "课程顾问",
+			alias : "consultant_name"
+		}, {
+			name : "上门时间",
+			alias : "first_visit_time"
+		}, {
+			name : "报名时间",
+			alias : "register_time"
+		}, {
+			name : "报名课程id",
+			alias : "course_id",
+			hide : true
+		}, {
+			name : "报名课程",
+			alias : "course_name"
+		}, {
+			name : "费用",
+			alias : "register_amount"
+		}, {
+			name : "学员状态",
+			alias : "current_state"
+		}, {
+			name : "访问状态",
+			alias : "visit_state",
+			align : "center"
+		}, {
+			name : "创建时间",
+			alias : "create_time",
+			align : "center",
+			hide : true
+		}, {
+			name : "备注",
+			alias : "des",
+			hide : true
+		}, {
+			name : "目前现状",
+			alias : "current_state",
+			hide : true
+		}, {
+			name : "微信",
+			alias : "wechat",
+			hide : true
+		}, {
+			name : "QQ",
+			alias : "qq",
+			hide : true
+		}, {
+			name : "位置",
+			alias : "location",
+			hide : true
+		} ],
+		dataSource : "getStudentsByPage.action",
+		postData : {
+			condition : condition
+		},
+		onRowClick : function(row) {
+			// 获取表格中的选中行
+			var row = $("#myTableAdmissions .gridSelected");
+			// 如果表中有行被选中
+			if (row.length > 0) {
+				// 删除禁用按钮样式
+				$(".btnDisable").removeClass("btnDisable");
+				$("#myTableCallback").removeClass("hidden");
+				/* 获取选中行学生id */
+				STUID = $(".gridSelected .gridCell[alias='student_id']").text();
+				loadCallback();
+			} else {
+				// 给编辑和删除按钮加上禁用样式
+				$("#btnEdit,#btnAddRecord").addClass("btnDisable");
+				$("#myTableCallback").addClass("hidden");
+			}
+		}
+	});
 }
 
 function loadCallback() {
 	var condition = "WHERE ";
 
-	condition += "T2.STU_ID=" + STUID + " AND 1=1";
+	condition += "STU_ID=" + STUID + " AND 1=1";
 	callbackGrid = new Grid({
 		renderTo : "myTableCallback",
 		columns : [ {

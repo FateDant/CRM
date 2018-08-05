@@ -35,7 +35,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		direction : "down",
 		onClick : function(t) {
@@ -74,7 +74,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		direction : "down",
 		onClick : function(t) {
@@ -106,7 +106,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		direction : "down",
 		onClick : function(t) {
@@ -159,7 +159,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		direction : "down",
 		onClick : function(t) {
@@ -209,7 +209,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		direction : "down",
 		onClick : function(t) {
@@ -266,9 +266,9 @@ function fillText() {
 	$("#select-online .ddlTxt").text(e.online_name);
 	$("#select-courseCon").attr("key", e.course_consultant_id);
 	$("#select-courseCon .ddlTxt").text(e.consultant_name);
-	$("#first-vist-time").val(handleTime(e.first_visit_time));
-	$("#register-time").val(handleTime(e.register_time));
-	$("#consult-time").val(handleTime(e.consult_time));
+	$("#first-vist-time").val(e.first_visit_time);
+	$("#register-time").val(e.register_time);
+	$("#consult-time").val(e.consult_time);
 	$("#select-course").attr("key", e.course_id);
 	$("#select-course .ddlTxt").text(e.course_name);
 	$("#register-amount").val(e.register_amount);
@@ -302,13 +302,6 @@ function postStudentInfo() {
 		checkDdl("visit-state");
 	}
 
-	// 时间格式转换
-	cDate = $("#consult-time").val().substring(6, 10) + "-" + $("#consult-time").val().substring(0, 2) + "-" + $("#consult-time").val().substring(3, 5);
-
-	fDate = $("#first-vist-time").val().substring(6, 10) + "-" + $("#first-vist-time").val().substring(0, 2) + "-" + $("#first-vist-time").val().substring(3, 5);
-
-	rDate = $("#register-time").val().substring(6, 10) + "-" + $("#register-time").val().substring(0, 2) + "-" + $("#register-time").val().substring(3, 5);
-	alert(errCount)
 	// 如果页面中存在错误
 	if (errCount > 0)
 		return;// 退出整个方法
@@ -331,13 +324,13 @@ function postStudentInfo() {
 		online_consultant_id : $("#select-online").attr("key"),
 		course_consultant_id : $("#select-courseCon").attr("key"),
 		school_id : $("#schoolId").text(),
-		first_visit_time : fDate,
-		register_time : rDate,
+		first_visit_time : $("#first-vist-time").datepicker().val(),
+		register_time : $("#register-time").datepicker().val(),
 		course_id : $("#select-course").attr("key"),
 		register_amount : $("#register-amount").val(),
 		visit_state : $("#visit-state .ddlTxt").text(),
 		create_id : $("#userId").text(),
-		consult_time : cDate
+		consult_time : $("#consult-time").datepicker().val()
 	}, function(res) {
 		// 如果商品保存成功
 		if (res.isSuccess == "true") {
@@ -346,15 +339,13 @@ function postStudentInfo() {
 			// 隐藏弹出层
 			top.topDialog.hide();
 			top.topTips.show({
-				txtTips : "开通用户成功",
-				top : 0,
+				txtTips : "操作成功",
 				classTips : "rightTips"
 			});
 
 		} else {
 			top.topTips.show({
-				txtTips : "开通用户失败",
-				top : 0,
+				txtTips : "操作失败",
 				classTips : "errorTips"
 			});
 		}

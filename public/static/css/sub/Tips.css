@@ -1,18 +1,19 @@
 .tips {
 	position: absolute;
-	width: 100%;
-	text-align: center;
-	transition: all 250ms;
-	z-index: 2000;
-	padding: .5em 1em;
+    left: 50%;
+    transition: all 250ms;
+    z-index: 2000;
+    padding: .5em 1.5em;
+    top: 50%;
+    border-radius: .3em;
 }
 
 .rightTips {
-	background-color: #009688 !important;
+	background-color: #5171b9 !important;
 	color: #fff;
 }
 
 .errorTips {
-	background-color: #f1457f;
+	background-color: #f1457f ;
 	color: #fff;
 }

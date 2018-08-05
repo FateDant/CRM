@@ -27,15 +27,16 @@ body {
 	justify-content: flex-end;
 }
 
-input[type="text"],.selectGender,.selectSchool,.description,.selectRole {
+input[type="text"],input[type="password"],.selectGender,.selectSchool,.description,.selectRole {
 	width: 250px;
 	border: 0.125em solid #ddd;
 	border-radius: 4px;
 	padding-left: 8px;
 }
 
-input[type="text"],.selectGender,.selectSchool,.selectRole {
+input[type="text"],input[type="password"],.selectGender,.selectSchool,.selectRole {
 	height: 30px;
+	background-color:#fafafa;
 }
 
 .selectGender,.selectSchool,.selectRole {

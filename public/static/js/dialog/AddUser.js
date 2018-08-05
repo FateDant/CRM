@@ -1,7 +1,5 @@
-var SLTUSER;
 var IS_EDIT = false;
 var USERID;
-var SLTSCHOOL;
 //错误统计
 var errCount = 0;
 $(function() {
@@ -14,7 +12,7 @@ $(function() {
 	});
 
 	// 生成性别下拉列表
-	SLTUSER = new DropDownList({
+	new DropDownList({
 		renderTo : "selectGender",
 		dataSource : [ {
 			key : "0",
@@ -29,7 +27,7 @@ $(function() {
 		defaultSelected : "-1",
 		preloadItem : [ {
 			key : "-1",
-			value : "请选择"
+			value : "未选择"
 		} ],
 		direction : "down",
 		onClick : function(t) {
@@ -37,12 +35,13 @@ $(function() {
 					"#selectGender").removeClass("txtError");
 		},
 		onComplete : function() {
-			/*if (window.parent.editObj != null)
-				fillText();*/
+			/*
+			 * if (window.parent.editObj != null) fillText();
+			 */
 		}
 	});
 	// 生成职位下拉列表
-	SLTSCHOOL = new DropDownList({
+	 new DropDownList({
 		renderTo : "selectRole",
 		dataSource : "getRole.action",
 		mapping : {
@@ -51,7 +50,7 @@ $(function() {
 		},
 		preloadItem : [ {
 			role_id : "-1",
-			role_name : "请选择"
+			role_name : "未选择"
 		} ],
 		onClick : function(t) {
 			t.key == "-1" ? $("#selectRole").addClass("txtError") : $(
@@ -59,7 +58,7 @@ $(function() {
 			$("#selectRole").attr("key", t.key);
 		},
 		onComplete : function() {
-			
+
 		}
 	});
 	// 生成校区下拉列表
@@ -72,7 +71,7 @@ $(function() {
 		},
 		preloadItem : [ {
 			school_id : "-1",
-			school_name : "请选择校区"
+			school_name : "未选择"
 		} ],
 		onClick : function(t) {
 			t.key == "-1" ? $("#selectSchool").addClass("txtError") : $(
@@ -113,7 +112,7 @@ $(function() {
 function fillText() {
 	// 获取顶层页面top.editObj变量
 	var e = window.parent.editObj;
-	// 把顶层页面的editObj销毁   
+	// 把顶层页面的editObj销毁
 	window.parent.editObj = null;
 	// 把商品信息填写到文本框
 	$("#txtName").val(e.user_name);
@@ -123,9 +122,9 @@ function fillText() {
 	$("#selectGender .ddlTxt").text(e.gender);
 	$("#txtMobile").val(e.mobile);
 	$("#txtEmail").val(e.email);
-	$("#selectRole").attr("key",e.role_id);
+	$("#selectRole").attr("key", e.role_id);
 	$("#selectRole .ddlTxt").text(e.role_name);
-	$("#selectSchool").attr("key",e.school_id);
+	$("#selectSchool").attr("key", e.school_id);
 	$("#selectSchool .ddlTxt").text(e.school_name);
 	$("#description").val(e.des);
 	// 设置id
@@ -139,13 +138,22 @@ function postUserInfo() {
 	// 如果按钮被禁用或者是阻塞状态就退出保存事件
 	if (btnSave.hasClass("btnError") || btnSave.hasClass("btnSuccess")
 			|| btnSave.hasClass("btnDisable"))
-		//return;// 退出整个方法
+		return;// 退出整个方法
 	
 	// 遍历所有输入框
 	$("input[type='text'],input[type='password']").each(function() {
 		// 如果当前文本框出错就累加错误数量
 		errCount += checkTxt(this);
 	});
+	if ($("#txtPwd").val() != $("#txtRepeatPwd").val()) {
+		errCount += 1;
+	}
+	if (IS_EDIT == false) {
+		/*下拉列表检查*/
+		checkDdl("selectGender");
+		checkDdl("selectRole");
+		checkDdl("selectSchool");
+	}
 	
 	// 如果页面中存在错误
 	if (errCount > 0)
@@ -174,15 +182,13 @@ function postUserInfo() {
 			// 隐藏弹出层
 			top.topDialog.hide();
 			top.topTips.show({
-				txtTips : "开通用户成功",
-				top : 0,
+				txtTips : "操作成功",
 				classTips : "rightTips"
 			});
 
 		} else {
 			top.topTips.show({
-				txtTips : "开通用户失败",
-				top : 0,
+				txtTips : "操作失败",
 				classTips : "errorTips"
 			});
 		}
@@ -262,7 +268,7 @@ function hideErrorTip(txtObj) {
 	return 0;
 }
 
-//下拉列表未选报错统计
+// 下拉列表未选报错统计
 function checkDdl(obj) {
 	var selectObj = $("#" + obj + " .ddlItemSelected").attr("key");
 	if (selectObj == "-1") {
