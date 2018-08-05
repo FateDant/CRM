@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"
+			+ request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+%>
+<%
+	String[] arrPlaceholder = { "登录名", "密码", "验证码" };
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<base href="<%=basePath%>">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>直尚电竞CRM管理系统</title>
+<link rel="icon" href="__IMAGE__/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="__CSS__/common/Common.css" />
+<link href="__CSS__/page/Login.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="login">
+			<div class="login-logo">
+				<img src="__IMAGE__/logo_header.png" alt="">
+			</div>
+			<div class="login-title">CRM管理平台</div>
+			<div class="login-userName">
+				<input id="txtUserName" type="text" placeholder="<%=arrPlaceholder[0]%>" maxlength="20" minlen="3" validate="cenm_" autocomplete="off">
+				<span class="errTips"></span>
+				<div class="placeholder"><%=arrPlaceholder[0]%></div>
+			</div>
+			<div class="login-pwd">
+				<input id="txtPassword" type="password" placeholder="<%=arrPlaceholder[1]%>" maxlength="20" minlen="6" validate="en" autocomplete="off">
+				<span class="errTips"></span>
+				<div class="placeholder"><%=arrPlaceholder[1]%></div>
+			</div>
+			<div class="yzmContainer">
+				<div class="yzm">
+					<input id="chkRM" type="text" placeholder="<%=arrPlaceholder[2]%>" class="yzm-word" maxlength="4" minlen="3" autocomplete="off">
+					<span class="errTips"></span>
+					<div class="placeholder"><%=arrPlaceholder[2]%></div>
+				</div>
+				<div class="yzm-img">
+					<img src="" basePath="getCertPic.action" alt="验证码" id="pic" title="点击刷新" />
+				</div>
+			</div>
+			<div class="login-act">
+				<input type="button" id="btnLogin" class="btnLogin" onclick="btnLogin_onclick()" value="登录"/>
+			</div>
+			<div class="forget">
+				<a href="jsp/page/ForgetPwd.jsp" class="forget-word">忘记密码?</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/common/jquery-1.12.0.js" type="text/javascript"></script>
+	<script src="js/common/util.js" type="text/javascript"></script>
+	<script src="js/page/Login.js" type="text/javascript"></script>
+</body>
+</html>

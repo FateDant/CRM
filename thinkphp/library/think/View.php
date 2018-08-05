@@ -45,7 +45,7 @@ class View
             '__ROOT__'   => $root,
             '__URL__'    => $base . '/' . $request->module() . '/' . Loader::parseName($request->controller()),
             '__STATIC__' => $root . '/static',
-            '__CSS__'    => $root . '/static/css',
+            '__CSS__/'    => $root . '/static/css',
             '__JS__'     => $root . '/static/js',
             '__IMAGE__'  => $root . '/static/images',
         ];

@@ -2174,9 +2174,9 @@ class PHPMailer {
   }
 
   /**
-   * Adds an embedded attachment.  This can include images, sounds, and
+   * Adds an embedded attachment.  This can include __IMAGE__, sounds, and
    * just about any other document.  Make sure to set the $type to an
-   * image type.  For JPEG images use "image/jpeg" and for GIF images
+   * image type.  For JPEG __IMAGE__ use "image/jpeg" and for GIF __IMAGE__
    * use "image/gif".
    * @param string $path Path to the attachment.
    * @param string $cid Content ID of the attachment.  Use this to identify
@@ -2214,9 +2214,9 @@ class PHPMailer {
   }
 
   /**
-   * Adds an embedded stringified attachment.  This can include images, sounds, and
+   * Adds an embedded stringified attachment.  This can include __IMAGE__, sounds, and
    * just about any other document.  Make sure to set the $type to an
-   * image type.  For JPEG images use "image/jpeg" and for GIF images
+   * image type.  For JPEG __IMAGE__ use "image/jpeg" and for GIF __IMAGE__
    * use "image/gif".
    * @param string $string The attachment.
    * @param string $cid Content ID of the attachment.  Use this to identify
@@ -2464,17 +2464,17 @@ class PHPMailer {
   }
 
   /**
-   * Evaluates the message and returns modifications for inline images and backgrounds
+   * Evaluates the message and returns modifications for inline __IMAGE__ and backgrounds
    * @access public
    * @param string $message Text to be HTML modified
    * @param string $basedir baseline directory for path
    * @return string $message
    */
   public function MsgHTML($message, $basedir = '') {
-    preg_match_all("/(src|background)=[\"'](.*)[\"']/Ui", $message, $images);
-    if(isset($images[2])) {
-      foreach($images[2] as $i => $url) {
-        // do not change urls for absolute images (thanks to corvuscorax)
+    preg_match_all("/(src|background)=[\"'](.*)[\"']/Ui", $message, $__IMAGE__);
+    if(isset($__IMAGE__[2])) {
+      foreach($__IMAGE__[2] as $i => $url) {
+        // do not change urls for absolute __IMAGE__ (thanks to corvuscorax)
         if (!preg_match('#^[A-z]+://#', $url)) {
           $filename = basename($url);
           $directory = dirname($url);
@@ -2487,7 +2487,7 @@ class PHPMailer {
           if ( strlen($basedir) > 1 && substr($basedir, -1) != '/') { $basedir .= '/'; }
           if ( strlen($directory) > 1 && substr($directory, -1) != '/') { $directory .= '/'; }
           if ( $this->AddEmbeddedImage($basedir.$directory.$filename, md5($filename), $filename, 'base64', $mimeType) ) {
-            $message = preg_replace("/".$images[1][$i]."=[\"']".preg_quote($url, '/')."[\"']/Ui", $images[1][$i]."=\"".$cid."\"", $message);
+            $message = preg_replace("/".$__IMAGE__[1][$i]."=[\"']".preg_quote($url, '/')."[\"']/Ui", $__IMAGE__[1][$i]."=\"".$cid."\"", $message);
           }
         }
       }
