@@ -1,14 +1,30 @@
-/* 搜索页面管理 */
+/* 学生和用户管理页面 */
 body {
 	min-width: 1000px;
 }
 
-.dataGrid-body {
+.f {
+	color: white;
+	background-color: #E91E63;
+	padding: .1em 0.5em;
+}
+
+.m {
+	color: white;
+	background-color: #2196F3;
+	padding: .1em .4em;
+}
+
+.f,.m {
+	border-radius: 0.2em;
+}
+
+.body {
 	overflow: hidden;
 	background-color: #fff;
 }
 
-.dataGrid-body  .dataGrid-body-top {
+.body  .body-top {
 	width: 100%;
 	background-color: #2858ac;
 	height: 50px;
@@ -17,7 +33,7 @@ body {
 	padding-left: 30px;
 }
 
-.dataGrid-body .acount-search {
+.body .acount-search {
 	width: 100%;
 	height: 30px;
 	line-height: 30px;
@@ -28,7 +44,7 @@ body {
 	color: #2858ac;
 }
 
-/* 搜索表格内容*/
+/* 搜索表格内容 */
 .search-container {
 	width: 100%;
 	padding: 0 30px;
@@ -36,27 +52,26 @@ body {
 	border-collapse: collapse;
 }
 
-.dataGrid-body .search-container tr td {
+.body .search-container tr td {
 	border: 1px solid #ddd;
 }
 
-.dataGrid-body .search-container tr td:nth-of-type(odd) {
+.body .search-container tr td:nth-of-type(odd) {
 	width: 10%;
 	text-align: right;
 	background-color: #f3fbff;
 }
 
-.dataGrid-body .search-container tr td:nth-of-type(odd) label {
+.body .search-container tr td:nth-of-type(odd) label {
 	margin-right: 10px;
 }
 
-.dataGrid-body .search-container tr td:nth-of-type(even) {
+.body .search-container tr td:nth-of-type(even) {
 	width: 15%;
 	text-align: center;
 }
 
-.dataGrid-body .search-container tr td:nth-of-type(even) input[type="text"]
-	{
+.body .search-container tr td:nth-of-type(even) input[type="text"] {
 	width: 80%;
 	border: 1px solid #ddd;
 	padding-left: 10px;
@@ -66,15 +81,17 @@ body {
 	border-radius: 5px;
 }
 
-.dataGrid-body .search-container tr td:nth-of-type(even) .search-container-list
-	{
+.body .search-container tr td:nth-of-type(even) .search-container-list {
 	height: 35px;
 	width: 200px;
 	margin: 0 auto;
 	line-height: 26px;
+	text-align: left;
+	padding-left: 10px;
+	color: #757575;
 }
 /* 按钮操作 */
-.dataGrid-body .act {
+.body .act {
 	width: 100%;
 	text-align: center;
 	height: 60px;
@@ -103,8 +120,30 @@ body {
 	background-color: #f98e1a;
 }
 
+/* 添加回访记录 */
+.list-title .del-update .addRecord {
+	padding: 4px 8px;
+	border-radius: 4px;
+	margin-right: 10px;
+	color: #2858ac;
+	background-color: #fff;
+	border: 1px solid #2858ac;
+}
+/* 开通用户 */
+.addContainer {
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
 
-/* 学员信息列表标题 */
+.addContainer .add {
+	color: #5474b8;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+/* 学生和用户信息列表标题 */
 .list-title {
 	width: 100%;
 	margin: 10px 0px 10px 20px;
@@ -138,10 +177,10 @@ body {
 	background-color: #fff;
 	border: 1px solid #f72222;
 }
-/*学生信息表格 */
-.myTableData {
+/* 学生和用户信息表格 */
+.myTableUser,.myTableAdmissions,.myTableCallback {
 	width: 97.8%;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 /*表格外层边框*/
 .grid {
@@ -153,7 +192,7 @@ body {
 .grid>thead>tr>th {
 	background-color: rgba(40, 88, 172, 0.24);
 	color: #333;
-	font-size: 1.1em;
+	font-size: 14.5px;
 }
 
 /*表格行鼠标悬停*/
@@ -184,7 +223,7 @@ body {
 	text-align: center;
 }
 
-/* 分页*/
+/* 分页 */
 .pager {
 	border: 0.0625em solid #e0e0e0;
 	border-top-width: 0;
@@ -204,18 +243,18 @@ table.pagerLine {
 	width: 100%;
 	font-size: .9em;
 }
-/*共 11 项,每页显示ʾ */
+/* 共 11 项,每页显示 */
 td.info-show {
 	padding-left: 8px;
 	width: 8.6%;
 }
 /* 分页容器 */
 td.ddlPageSize-container {
-    width: 5.2%;
+	width: 5.2%;
 }
 /* 项 */
 td.pageItem {
-    width: 76.9%;
+	width: 76.9%;
 }
 /* 分页栏按钮 */
 .pageBtn {
@@ -226,7 +265,6 @@ td.pageItem {
 	width: 5em;
 	border: 0.0625em solid #bdbdbd;
 }
-
 
 /* 下拉列表弹出部分的边框 */
 .ddlPageSize .ddlList {
@@ -244,17 +282,18 @@ td.pageItem {
 /* 分页栏按钮 */
 .pagerLine>tbody>tr>td>input[type="button"] {
 	background-color: #2858ac;
-    border: 0.0625em solid #1c3e79;
-    color: #fff;
-    width: 60px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 5px;
+	border: 0.0625em solid #1c3e79;
+	color: #fff;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
 }
+
 td.currentPage {
-    width: 2.7%;
-    text-align: center;
-    letter-spacing: 1px;
+	width: 2.7%;
+	text-align: center;
+	letter-spacing: 1px;
 }
 /* 显示详情描述和评价 */
 .showAll {
