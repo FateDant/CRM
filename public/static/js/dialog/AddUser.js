@@ -32,7 +32,7 @@ $(function() {
 		direction : "down",
 		onClick : function(t) {
 			t.key == "-1" ? $("#selectGender").addClass("txtError") : $(
-					"#selectGender").removeClass("txtError");
+				"#selectGender").removeClass("txtError");
 		},
 		onComplete : function() {
 			/*
@@ -64,7 +64,7 @@ $(function() {
 	// 生成校区下拉列表
 	SLTSCHOOL = new DropDownList({
 		renderTo : "selectSchool",
-		dataSource : "getSchool.action",
+		dataSource : "",
 		mapping : {
 			key : "school_id",
 			value : "school_name"

@@ -30,25 +30,25 @@ $(function() {
 		renderTo : "leftMenu",
 		dataSource : [ {
 			name : "首页",
-			url : "http://"+IP+"/CRM/jsp/grid/IndexCharts.jsp"
+			url : "./CollegeGrid/showIndex?id=0"
 		}, {
 			name : "数据搜索",
-			url : "http://"+IP+"/CRM/jsp/grid/DataGrid.jsp"
+            url : "./CollegeGrid/showIndex?id=1"
 		}, {
 			name : "常规招生",
-			url : "http://"+IP+"/CRM/jsp/grid/RegularGrid.jsp"
+            url : "./CollegeGrid/showIndex?id=2"
 		}, {
 			name : "院校招生",
-			url : "http://"+IP+"/CRM/jsp/grid/CollegeGrid.jsp"
+            url : "./CollegeGrid/showIndex?id=3"
 		}, {
 			name : "口碑招生",
-			url : "http://"+IP+"/CRM/jsp/grid/PraiseGrid.jsp"
+            url : "./CollegeGrid/showIndex?id=4"
 		}, {
 			name : "校区招生",
-			url : "http://"+IP+"/CRM/jsp/grid/CampusGrid.jsp"
+            url : "./CollegeGrid/showIndex?id=5"
 		}, {
 			name : "系统管理",
-			url : "http://"+IP+"/CRM/jsp/grid/UserGrid.jsp"
+            url : "./CollegeGrid/showIndex?id=6"
 		} ],
 		onClick : function(li) {
 			$("#mainIframe").attr("src", $(li).attr("url"));

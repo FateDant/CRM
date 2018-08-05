@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="ch">
 <head>
-<base href="<%=basePath%>">
 <meta charset="UTF-8" />
 <title>直尚电竞CRM管理系统</title>
 <link rel="icon" href="__IMAGE__/favicon.ico" type="image/x-icon">
@@ -25,7 +24,7 @@
 					<ul class="nav-row">
 						<li class="nav-logo"><img src="__IMAGE__/logo.png" alt="logo" /></li>
 						<li class="nav-title">CRM管理系统</li>
-						<li id="btnUser" class="btnUser"><label for="btnUser"> <i class="fa fa-user-o"></i> </label> <a href="javascript:;"><%=userName%></a> <span class="user_more" id="userMore"></span>
+						<li id="btnUser" class="btnUser"><label for="btnUser"> <i class="fa fa-user-o"></i> </label> <a href="javascript:;">{:session('user_info.user_name')}</a> <span class="user_more" id="userMore"></span>
 							<ul class="ddl" id="showDdl">
 								<li>
 									<div id="resetData">
@@ -34,12 +33,12 @@
 								</li>
 								<li>
 									<div id="loadIndex">
-										<i class="fa fa-compass"></i>重新登录
+										<i class="fa fa-compass"><a href="{:url('index/user/Logagain')}"></i>重新登录
 									</div>
 								</li>
 								<li>
 									<div id="btnExit">
-										<i class="fa fa-power-off"></i>退出
+										<i class="fa fa-power-off"></i><a href="{:url('index/user/logout')}">退出
 									</div>
 								</li>
 							</ul></li>
@@ -56,16 +55,16 @@
 			<!-- 右侧嵌套页面 -->
 			<td>
 				<div id="rightContent">
-					<iframe id="mainIframe" src="http://192.168.1.227/CRM/jsp/grid/IndexCharts.jsp" frameborder="0"></iframe>
+					<iframe id="mainIframe" src="./IndexCharts/index" frameborder="0"></iframe>
 				</div></td>
 		</tr>
 	</table>
 	<div id="dialog"></div>
-	<script src="js/common/jquery-1.12.0.js" type="text/javascript" ></script>
-	<script src="js/common/util.js" type="text/javascript" ></script>
-	<script src="js/sub/Dialog.js" type="text/javascript" ></script>
-	<script src="js/sub/Tips.js" type="text/javascript" ></script>
-	<script src="js/sub/Menu.js" type="text/javascript" ></script>
-	<script src="js/page/Index.js" type="text/javascript" ></script>
+	<script src="__JS__/common/jquery-1.12.0.js" type="text/javascript" ></script>
+	<script src="__JS__/common/util.js" type="text/javascript" ></script>
+	<script src="__JS__/sub/Dialog.js" type="text/javascript" ></script>
+	<script src="__JS__/sub/Tips.js" type="text/javascript" ></script>
+	<script src="__JS__/sub/Menu.js" type="text/javascript" ></script>
+	<script src="__JS__/page/Index.js" type="text/javascript" ></script>
 </body>
 </html>

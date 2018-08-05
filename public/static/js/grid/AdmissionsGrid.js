@@ -14,7 +14,7 @@ $(function() {
 			title : "学员数据添加",
 			width : 1100,
 			height : 618,
-			url : "jsp/dialog/AddStu.jsp"
+			url : "./CollegeGrid/addStu"
 		});
 	});
 
@@ -63,34 +63,35 @@ $(function() {
 	// 生成校区下拉列表
 	new DropDownList({
 		renderTo : "select-school",
-		dataSource : "getSchool.action",
+		dataSource : "schoolList",
 		mapping : {
 			key : "school_id",
 			value : "school_name"
 		},
 		preloadItem : [ {
 			school_id : "-1",
-			school_name : "未选择"
+			school_name : "请选择校区"
 		} ],
 		onClick : function() {
-			var schoolsType = $("#selectSchool .ddlItemSelected").attr("key");
-			schoolsType == "-1" ? $("#selectSchool").addClass("btnError") : $("#selectSchool").removeClass("btnError");
-		},
+            var schoolsType = $("#selectSchool .ddlItemSelected").attr("key");
+            schoolsType == "-1" ? $("#selectSchool").addClass("btnError") : $("#selectSchool").removeClass("btnError");
+        },
 		onComplete : function() {
-
+            if (top.editObj != null)
+                fillText();
 		}
 	});
 	// 生成渠道下拉列表
 	new DropDownList({
 		renderTo : "select-channel",
-		dataSource : "getChannel.action",
+		dataSource : "channelData?id=0",
 		mapping : {
 			key : "channel_id",
 			value : "channel_name"
 		},
 		preloadItem : [ {
 			channel_id : "-1",
-			channel_name : "未选择"
+			channel_name : "请选择渠道"
 		} ],
 		onClick : function() {
 			var channelsType = $("#select-channel .ddlItemSelected").attr("key");

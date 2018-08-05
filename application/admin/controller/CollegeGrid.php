@@ -17,6 +17,27 @@ use think\Request;
 use think\Session;
 
 class CollegeGrid extends Controller {
+    public function showIndex(Request $request){
+        //从Session中获取学校id
+        $school_id  = Session::get('user_info.school_id');
+        $schoolInfo = f_school::get($school_id)->toArray();
+
+        if (!$schoolInfo) {
+            $status  = 0;
+            $message = '查询失败';
+            return json(['status' => $status, 'message' => $message]);
+        }
+
+        $school_name = $schoolInfo['school_name'];
+
+        $request_id = $request->only('id');
+        $model = array('IndexCharts','DataGrid','RegularGrid','CollegeGrid','PraiseGrid','CampusGrid','UserGrid');
+        $this->assign('school_name', $school_name);
+        return view('../application/admin/view/grid/'.$model[$request_id['id']].'.html');
+//        return view('../application/admin/view/grid/IndexCharts.html');
+
+    }
+
     /**
      * 显示校区
      * @return \think\response\Json
@@ -708,4 +729,7 @@ class CollegeGrid extends Controller {
         return json(['status' => $status, 'message' => $message]);
     }
 
+    public function addStu(){
+        return view('../application/admin/view/dialog/AddStu.html');
+    }
 }

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="306049df-ea8b-4cfb-9a4d-fb50669800ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/CollegeGrid.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/CollegeGrid.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/dialog/AddStu.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/dialog/AddStu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/dialog/AddUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/dialog/AddUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/dialog/EditStu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/grid/CollegeGrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/grid/CollegeGrid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/grid/DataGrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/grid/DataGrid.html" afterDir="false" />
@@ -14,28 +12,12 @@
       <change beforePath="$PROJECT_DIR$/application/admin/view/grid/PraiseGrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/grid/PraiseGrid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/grid/RegularGrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/grid/RegularGrid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/view/grid/UserGrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/grid/UserGrid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/public/meta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/jquery-1.12.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/jquery-1.12.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/user/ForgetPwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/ForgetPwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/dialog/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/dialog/AddUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/grid/DataGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/grid/DataGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/grid/UserGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/grid/UserGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/10179d62d1e663b422091ca92ed64e47.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/23168ff88599f06e2fa9c9c969615b64.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/422bb02bad5835b48521632ec3a69691.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/4be03ee8de7d806edbe111c3bacc97e5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/5112ec3d80522c66a8e3c07764528a65.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6192634d27e78239a7e6c17431b3d5c5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6dff639e58ede0abb1391e235fc599ff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/966bb066eb8398cb3cd68d69f4f6e3c8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/97ec28b86b30aa6d2750a0cae0adc3e3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/99a42902a4c6fbf9bdc75a73094856ce.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/a2b01f7e284dde0caf8d4970f0725a89.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/ad88872be1689fd448cff85daf61e232.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/d438473fb013fb9943a9b7fb6b6840ae.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/e29d5394390ce5819df613d9b6c3651c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/e9ab70a970ad8223dff12c64ae229fed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/f30bfbc8dd883803f2a51e668a71c6b8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/page/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/page/Index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +31,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddCallback.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html">
+      <file leaf-file-name="AdmissionsGrid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+            <state relative-caret-position="247">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddStu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddStu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="80" column="47" lean-forward="true" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserGrid.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/static/js/grid/UserGrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataGrid.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/grid/DataGrid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollegeGrid.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/CollegeGrid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="731" column="26" selection-start-line="731" selection-start-column="20" selection-end-line="731" selection-end-column="26" />
+              <folding>
+                <element signature="e#376#1167#0#PHP" />
+                <element signature="e#1174#1309#0#PHP" />
+                <element signature="e#1314#2195#0#PHP" />
+                <element signature="e#2201#2307#0#PHP" />
+                <element signature="e#2312#2818#0#PHP" />
+                <element signature="e#2824#2886#0#PHP" />
+                <element signature="e#2891#3075#0#PHP" />
+                <element signature="e#3081#3217#0#PHP" />
+                <element signature="e#3222#4703#0#PHP" />
+                <element signature="e#4709#4814#0#PHP" />
+                <element signature="e#4819#5375#0#PHP" />
+                <element signature="e#5381#5520#0#PHP" />
+                <element signature="e#5525#7208#0#PHP" />
+                <element signature="e#7214#7352#0#PHP" />
+                <element signature="e#7357#9040#0#PHP" />
+                <element signature="e#9046#9153#0#PHP" />
+                <element signature="e#9158#9914#0#PHP" />
+                <element signature="e#9920#10012#0#PHP" />
+                <element signature="e#10017#11122#0#PHP" />
+                <element signature="e#11128#11264#0#PHP" />
+                <element signature="e#11269#12365#0#PHP" />
+                <element signature="e#12371#12541#0#PHP" />
+                <element signature="e#12546#19935#0#PHP" />
+                <element signature="e#19941#20109#0#PHP" />
+                <element signature="e#20114#24767#0#PHP" />
+                <element signature="e#24773#24866#0#PHP" />
+                <element signature="e#24871#26758#0#PHP" />
+                <element signature="e#26764#26932#0#PHP" />
+                <element signature="e#26937#28794#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularGrid.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/grid/RegularGrid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-741">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddUser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddStu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2603">
+              <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PraiseGrid.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/grid/PraiseGrid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexCharts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/grid/IndexCharts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -82,12 +176,20 @@
       <find>btnSearch</find>
       <find>adds</find>
       <find>33</find>
-      <find>css</find>
       <find>css/</find>
+      <find>images</find>
+      <find>css</find>
+      <find>__CSS__</find>
+      <find>getschool</find>
+      <find>Add</find>
+      <find>AddStu</find>
+      <find>AddUser</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>__CSS__</replace>
+      <replace>__CSS__/</replace>
+      <replace>__IMAGE__</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -96,39 +198,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
-        <option value="$PROJECT_DIR$/application/index/model/User.php" />
         <option value="$PROJECT_DIR$/extend/lib/PHPMailer.php" />
         <option value="$PROJECT_DIR$/extend/lib/Email.php" />
         <option value="$USER_HOME$/Desktop/wenjian/HTML/jsp/common/Private.jsp" />
-        <option value="$PROJECT_DIR$/thinkphp/library/think/View.php" />
         <option value="$PROJECT_DIR$/vendor/topthink/think-captcha/src/Captcha.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/admin/view/index/index.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/IndexCharts.html" />
         <option value="$PROJECT_DIR$/application/index/view/user/forgot_password.html" />
         <option value="$PROJECT_DIR$/public/static/js/page/Login.js" />
-        <option value="$PROJECT_DIR$/public/static/js/page/Index.js" />
         <option value="$PROJECT_DIR$/application/index/view/user/register_action.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/CollegeGrid.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/DataGrid.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/PraiseGrid.html" />
         <option value="$PROJECT_DIR$/public/static/js/grid/UserGrid.js" />
         <option value="$PROJECT_DIR$/application/admin/view/public/meta.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/index/Index.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/RegularGrid.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/IndexCharts.php" />
-        <option value="$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js" />
         <option value="$PROJECT_DIR$/application/admin/model/CampusGrid.php" />
         <option value="$PROJECT_DIR$/application/admin/model/CollegeGrid.php" />
         <option value="$PROJECT_DIR$/application/admin/model/PraiseGrid.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/PraiseGrid.php" />
-        <option value="$PROJECT_DIR$/application/admin/controller/CollegeGrid.php" />
         <option value="$PROJECT_DIR$/application/admin/model/RegularGrid.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/RegularGrid.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Base.php" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/UserGrid.html" />
         <option value="$PROJECT_DIR$/application/admin/view/dialog/AddUser.html" />
         <option value="$PROJECT_DIR$/public/static/js/dialog/AddStu.js" />
         <option value="$PROJECT_DIR$/application/admin/model/course.php" />
@@ -137,16 +226,29 @@
         <option value="$PROJECT_DIR$/application/admin/model/UserRight.php" />
         <option value="$PROJECT_DIR$/application/admin/model/User.php" />
         <option value="$PROJECT_DIR$/application/admin/model/AddStu.php" />
-        <option value="$PROJECT_DIR$/application/admin/view/dialog/AddStu.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/UserGrid.php" />
         <option value="$PROJECT_DIR$/public/static/js/dialog/AddCallback.js" />
-        <option value="$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/CampusGrid.php" />
         <option value="$PROJECT_DIR$/application/index/controller/User.php" />
         <option value="$PROJECT_DIR$/application/database.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/DataGrid.php" />
         <option value="$PROJECT_DIR$/application/admin/view/dialog/AddCallback.jsp" />
         <option value="$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html" />
+        <option value="$PROJECT_DIR$/thinkphp/library/think/View.php" />
+        <option value="$PROJECT_DIR$/application/index/view/user/ForgetPwd.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/IndexCharts.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/CollegeGrid.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/DataGrid.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/PraiseGrid.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/RegularGrid.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/grid/UserGrid.html" />
+        <option value="$PROJECT_DIR$/public/static/js/page/Index.js" />
+        <option value="$PROJECT_DIR$/application/admin/view/index/Index.html" />
+        <option value="$PROJECT_DIR$/public/static/js/dialog/AddUser.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/CollegeGrid.php" />
+        <option value="$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js" />
+        <option value="$PROJECT_DIR$/application/admin/view/dialog/AddStu.html" />
       </list>
     </option>
   </component>
@@ -174,9 +276,9 @@
       <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-112" />
-    <option name="y" value="385" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="6" />
+    <option name="y" value="75" />
     <option name="width" value="1940" />
     <option name="height" value="950" />
   </component>
@@ -210,6 +312,13 @@
               <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ThinkPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -218,7 +327,7 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ThinkPHP" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +345,31 @@
               <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ThinkPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ThinkPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="grid" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ThinkPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ThinkPHP" type="b2602c69:ProjectViewProjectNode" />
@@ -259,16 +392,16 @@
     <property name="settings.editor.splitter.proportion" value="0.24781342" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view\index" />
-      <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\extend\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ruanjian\Apache24\htdocs\ThinkPHP\application\admin\view\index" />
       <recent name="F:\ruanjian\Apache24\htdocs\ThinkPHP\public" />
       <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view" />
       <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\public\static" />
       <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\extend\lib" />
-      <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\application\admin\view\index" />
+      <recent name="D:\ruanjian\wamp\wamp64\www\ThinkPHP\extend\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,30 +441,30 @@
       <workItem from="1532763794814" duration="596000" />
       <workItem from="1532957683089" duration="935000" />
       <workItem from="1533028004367" duration="8735000" />
-      <workItem from="1533440706908" duration="2680000" />
+      <workItem from="1533440706908" duration="13583000" />
+      <workItem from="1533466429200" duration="3392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191074000" />
+    <option name="totallyTimeSpent" value="205369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="5" y="60" width="1552" height="760" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17402945" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30955777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -352,195 +485,65 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
+    <entry file="file://$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3401">
-          <caret line="179" column="70" lean-forward="true" selection-start-line="177" selection-start-column="12" selection-end-line="179" selection-end-column="70" />
+        <state relative-caret-position="1634">
+          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/DataGrid.php">
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/DataGrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5111">
-          <caret line="280" column="13" selection-start-line="280" selection-start-column="13" selection-end-line="280" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3116">
-          <caret line="164" column="7" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="112" column="11" lean-forward="true" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="160" column="7" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="209" column="25" lean-forward="true" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5940">
-          <caret line="270" column="55" selection-start-line="270" selection-start-column="55" selection-end-line="270" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddStu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="104" column="60" lean-forward="true" selection-start-line="104" selection-start-column="60" selection-end-line="104" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/CourseConsultant.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/model/Course.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/model/CollegeGrid.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/model/UserRight.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/model/CampusGrid.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/model/User.php" />
-    <entry file="file://$PROJECT_DIR$/ZSDJ_CRM.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="134" column="72" lean-forward="true" selection-start-line="134" selection-start-column="72" selection-end-line="134" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2162">
-          <caret line="146" column="35" lean-forward="true" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/UserGrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Documents/Downloads/application/index/controller/Teacher.php" />
-    <entry file="file://D:/Documents/Downloads/application/index/model/Teacher.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3116">
-          <caret line="164" column="7" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/AddStu.php" />
-    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/CollegeGrid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="1539">
+          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+          <folding>
+            <element signature="e#376#1167#0#PHP" />
+            <element signature="e#1174#1309#0#PHP" />
+            <element signature="e#1314#2195#0#PHP" />
+            <element signature="e#2201#2307#0#PHP" />
+            <element signature="e#2312#2818#0#PHP" />
+            <element signature="e#2824#2886#0#PHP" />
+            <element signature="e#2891#3075#0#PHP" />
+            <element signature="e#3081#3217#0#PHP" />
+            <element signature="e#3222#4703#0#PHP" />
+            <element signature="e#4709#4814#0#PHP" />
+            <element signature="e#4819#5375#0#PHP" />
+            <element signature="e#5381#5520#0#PHP" />
+            <element signature="e#5525#7208#0#PHP" />
+            <element signature="e#7214#7352#0#PHP" />
+            <element signature="e#7357#9040#0#PHP" />
+            <element signature="e#9046#9153#0#PHP" />
+            <element signature="e#9158#9914#0#PHP" />
+            <element signature="e#9920#10012#0#PHP" />
+            <element signature="e#10017#11122#0#PHP" />
+            <element signature="e#11128#11264#0#PHP" />
+            <element signature="e#11269#12365#0#PHP" />
+            <element signature="e#12371#12541#0#PHP" />
+            <element signature="e#12546#19935#0#PHP" />
+            <element signature="e#19941#20109#0#PHP" />
+            <element signature="e#20114#24767#0#PHP" />
+            <element signature="e#24773#24866#0#PHP" />
+            <element signature="e#24871#26758#0#PHP" />
+            <element signature="e#26764#26932#0#PHP" />
+            <element signature="e#26937#28794#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Documents/Downloads/application/index/controller/Teacher.php" />
+    <entry file="file://D:/Documents/Downloads/application/index/model/Teacher.php" />
+    <entry file="file://$PROJECT_DIR$/application/admin/model/AddStu.php" />
     <entry file="file://$PROJECT_DIR$/application/admin/controller/UserGrid.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1805">
           <caret line="103" column="32" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="103" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mysql.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddStu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="145" column="7" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -550,9 +553,6 @@
           <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/EditStu.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,33 +568,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
+    <entry file="file://$PROJECT_DIR$/application/admin/view/page/ExceptionError(1).jsp" />
+    <entry file="file://$PROJECT_DIR$/application/admin/view/page/ForgetPwd.jsp" />
+    <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        <state relative-caret-position="893">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/page/Error.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/page/ExceptionError(1).jsp">
+    <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74" />
+        <state relative-caret-position="-38">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/page/ForgetPwd.jsp">
+    <entry file="file://$PROJECT_DIR$/application/index/view/user/register_action.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1252" />
+        <state relative-caret-position="-741" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/page/Index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddCallback.html">
+    <entry file="file://$PROJECT_DIR$/runtime/temp/6864f5346bbeff0900faf7fc2fbb3474.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        <state relative-caret-position="133">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4023" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3021" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9291" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/grid/IndexCharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3757">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/IndexCharts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/CampusGrid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/UserGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/page/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/index/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/CollegeGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/CampusGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/IndexCharts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/DataGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/PraiseGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/grid/RegularGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/dialog/AddStu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2603">
+          <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/CollegeGrid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="731" column="26" selection-start-line="731" selection-start-column="20" selection-end-line="731" selection-end-column="26" />
+          <folding>
+            <element signature="e#376#1167#0#PHP" />
+            <element signature="e#1174#1309#0#PHP" />
+            <element signature="e#1314#2195#0#PHP" />
+            <element signature="e#2201#2307#0#PHP" />
+            <element signature="e#2312#2818#0#PHP" />
+            <element signature="e#2824#2886#0#PHP" />
+            <element signature="e#2891#3075#0#PHP" />
+            <element signature="e#3081#3217#0#PHP" />
+            <element signature="e#3222#4703#0#PHP" />
+            <element signature="e#4709#4814#0#PHP" />
+            <element signature="e#4819#5375#0#PHP" />
+            <element signature="e#5381#5520#0#PHP" />
+            <element signature="e#5525#7208#0#PHP" />
+            <element signature="e#7214#7352#0#PHP" />
+            <element signature="e#7357#9040#0#PHP" />
+            <element signature="e#9046#9153#0#PHP" />
+            <element signature="e#9158#9914#0#PHP" />
+            <element signature="e#9920#10012#0#PHP" />
+            <element signature="e#10017#11122#0#PHP" />
+            <element signature="e#11128#11264#0#PHP" />
+            <element signature="e#11269#12365#0#PHP" />
+            <element signature="e#12371#12541#0#PHP" />
+            <element signature="e#12546#19935#0#PHP" />
+            <element signature="e#19941#20109#0#PHP" />
+            <element signature="e#20114#24767#0#PHP" />
+            <element signature="e#24773#24866#0#PHP" />
+            <element signature="e#24871#26758#0#PHP" />
+            <element signature="e#26764#26932#0#PHP" />
+            <element signature="e#26937#28794#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/grid/AdmissionsGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/dialog/AddStu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="80" column="47" lean-forward="true" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/grid/UserGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
