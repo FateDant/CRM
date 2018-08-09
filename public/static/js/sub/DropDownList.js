@@ -77,12 +77,13 @@ DropDownList.prototype.build = function() {
 	this.ddlTxt = $("<div class='ddlTxt' unselectable='on'></div>").appendTo(this.renderTo);
 	this.ddlArrow = $("<div class='ddlArrow'></div>").appendTo(this.renderTo);
 	this.ddlList = $("<ul class='ddlList hidden'></ul>").appendTo(this.renderTo);
+	var obj=this.dataSource.data?this.dataSource.data:this.dataSource;
 	// 合并预加载项的数据到数据源
 	if (this.preloadItem)
-		this.dataSource = this.preloadItem.concat(this.dataSource);
+		obj = this.preloadItem.concat(obj);
 	// 遍历数据源生成列表项
 	var t = this;
-	$(this.dataSource).each(function() {
+	$(obj).each(function() {
 		$("<li class='ddlItem' key='" + this[t.mapping.key] + "'>" + this[t.mapping.value] + "</li>").appendTo(t.ddlList);
 	});
 	// 设置默认选中项

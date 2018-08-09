@@ -77,7 +77,7 @@ $(function(){
 //	生成回访人员下拉列表
 	SLTONLINE =new DropDownList({
 		renderTo : "call-user",
-		dataSource : "getUser.action",
+		dataSource : "revisitName",
 		mapping : {
 			key : "user_id",
 			value : "user_name"
@@ -145,13 +145,13 @@ function postCallbackInfo() {
 		btnSave.addClass("btnDisable").val("正在保存，请稍后……");
 	}, 2000);
 
-	$.post("addCallback.action", {
-		call_way : $("#call-way .ddlItemSelected").text(),
-		stu_will : $("#stu-will .ddlItemSelected").text(),
-		call_record : $("#callback-content-container").val(),
-		call_time : $("#callback-time").datepicker().val(),
+	$.post("addCallBack", {
+        visit_way : $("#call-way .ddlItemSelected").text(),
+        will_state : $("#stu-will .ddlItemSelected").text(),
+        log_detail : $("#callback-content-container").val(),
+        visit_time : $("#callback-time").datepicker().val(),
 		call_userid : $("#call-user .ddlItemSelected").attr("key"),
-		stu_id :window.parent.editObj.student_id
+		student_id :window.parent.editObj.student_id
 	}, function(res) {
 		// 如果回访保存成功
 		if (res.isSuccess == "true") {
@@ -166,7 +166,7 @@ function postCallbackInfo() {
 
 		} else {
 			top.topTips.show({
-				txtTips : "操作成功失败",
+				txtTips : "操作失败",
 				classTips : "errorTips"
 			});
 		}

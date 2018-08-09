@@ -64,8 +64,8 @@ Grid.prototype.getDataByDataSource = function() {
 	if (typeof this.dataSource == "string") {
 		$.post(this.dataSource, this.postData, function(res) {
 			t.dataSource = res;
-			if (t.dataSource.rows == null) {
-				alert("表格生成失败，原因：表格JSON必须包含rows属性。");
+			if (t.dataSource.data == null) {
+				//alert("表格生成失败，原因：表格JSON必须包含rows属性。");
 				return;
 			}
 			// 生成元素
@@ -99,7 +99,7 @@ Grid.prototype.build = function() {
 	});
 	var tbody = $("<tbody></tbody>").appendTo(table);
 	// 遍历数据源
-	$(this.dataSource.rows).each(function(i, row) {
+	$(this.dataSource.data).each(function(i, row) {
 		// 生成每一行
 		var tr = $("<tr class='gridRow'></tr>").appendTo(tbody);
 		// 遍历列，在每一行中生成每一列

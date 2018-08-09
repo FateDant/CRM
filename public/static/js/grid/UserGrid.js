@@ -17,7 +17,7 @@ $(function() {
 			title : "添加用户",
 			width : 700,
 			height : 690,
-			url : "jsp/dialog/AddUser.jsp"
+			url : "UserGrid/show"
 		});
 	});
 
@@ -76,7 +76,7 @@ $(function() {
 			title : "编辑用户",
 			width : 700,
 			height : 690,
-			url : "jsp/dialog/AddUser.jsp"
+			url : "UserGrid/show"
 		});
 
 	});
@@ -112,7 +112,7 @@ $(function() {
 	// 职位下拉列表
 	new DropDownList({
 		renderTo : "select-role",
-		dataSource : "getRole.action",
+		dataSource : "../UserGrid/roleList",
 		mapping : {
 			key : "role_id",
 			value : "role_name"
@@ -151,27 +151,26 @@ function loadGrid() {
 	// 禁用添加和编辑按钮
 	$("#btnDel,#btnEdit").addClass("btnDisable");
 	// 拼接查询条件
-	var condition = "WHERE ";
+	var conditionInfo = "&&";
 	// 用户真实姓名
 	var txtEmpName = $("#txtUser").val();
 	if (txtEmpName != "")
-		condition += "T2.USER_NAME LIKE '%" + txtEmpName + "%' AND ";
+        conditionInfo += "user_name=" + txtEmpName + "&&";
 	// 电话
 	var txtMobile = $("#txtMobile").val();
 	if (txtMobile != "")
-		condition += "T2.MOBILE LIKE '%" + txtMobile + "%' AND ";
+        conditionInfo += "mobile=" + txtMobile + "&&";
 	// 用户职位
 	var selectRole = $("#select-role .ddlItemSelected").attr("key");
 	if (selectRole != "-1" && selectRole != undefined)
-		condition += "T2.ROLE_ID=" + selectRole + " AND ";
+        conditionInfo += "role_id=" + selectRole + "&&";
 	var sDate = $("#startDate").val();
 	var eDate = $("#endDate").val();
 	if (sDate != "" && eDate != "") {
 		var dsDate = sDate.substring(6, 10) + "-" + sDate.substring(0, 2) + "-" + sDate.substring(3, 5);
 		var deDate = eDate.substring(6, 10) + "-" + eDate.substring(0, 2) + "-" + eDate.substring(3, 5);
-		condition += "T2.CREATE_TIME BETWEEN '" + dsDate + " 00:00:00' AND '" + deDate + " 23:59:59' AND ";
+        conditionInfo += "T2.CREATE_TIME BETWEEN '" + dsDate + " 00:00:00' AND '" + deDate + " 23:59:59' AND ";
 	}
-	condition += "1=1";
 	userGrid = new Grid({
 		renderTo : "myTableUser",
 		columns : [ {
@@ -222,7 +221,7 @@ function loadGrid() {
 			align : "center",
 		}, {
 			name : "备注",
-			alias : "des"
+			alias : "desc"
 		}, {
 			name : "校区编号",
 			alias : "school_id",
@@ -232,10 +231,7 @@ function loadGrid() {
 			alias : "school_name",
 			hide : true
 		} ],
-		dataSource : "getUserByPage.action",
-		postData : {
-			condition : condition
-		},
+		dataSource : "../UserGrid/userListData?id="+window.parent.SCHOOLID+conditionInfo,
 		onRowClick : function(row) {
 			// 获取表格中的选中行
 			var row = $("#myTableUser .gridSelected");
@@ -246,6 +242,9 @@ function loadGrid() {
 			else
 				// 给编辑和删除按钮加上禁用样式
 				$("#btnEdit,#btnDel").addClass("btnDisable");
-		}
+		},
+		onComplete:function () {
+			var empNameArr=$()
+        }
 	});
 }

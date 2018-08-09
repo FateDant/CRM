@@ -1,0 +1,1039 @@
+---------------------------------------------------------------
+[ 2018-08-05T13:58:55+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063799s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.089598s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.005100s ]
+---------------------------------------------------------------
+[ 2018-08-05T14:06:28+08:00 ] 127.0.0.1 GET /admin/index.html
+[ error ] [0]模板文件不存在:F:\ruanjian\Apache24\htdocs\ThinkPHP\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2018-08-05T14:06:45+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ error ] [0]模板文件不存在:F:\ruanjian\Apache24\htdocs\ThinkPHP\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2018-08-05T15:45:51+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ error ] [2]Illegal offset type
+---------------------------------------------------------------
+[ 2018-08-05T16:56:43+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002955s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.016355s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:45+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003918s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:47+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002640s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:48+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002652s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:49+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003893s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:51+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002619s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:51+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003023s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:56:52+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004683s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001979s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:13+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002733s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.045277s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:14+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002729s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:15+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002852s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000901s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:19+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005280s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:20+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003575s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:20+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002898s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:21+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003513s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000706s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:22+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003543s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:23+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003968s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002244s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:23+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003571s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:59:24+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003659s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:00:52+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002839s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:00:54+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003600s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:01:57+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002690s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:05:26+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002833s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000913s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:07:08+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002801s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:08:10+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013156s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:08:15+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002535s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:08:39+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003253s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:08:41+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003389s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:18+08:00 ] 127.0.0.1 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002941s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:20+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002711s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:23+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002510s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001511s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:25+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002569s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:25+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002509s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:26+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002572s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:27+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002532s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:28+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003285s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:28+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002567s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:29+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002558s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:30+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002892s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:11:31+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003521s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:13:06+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002705s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:13:48+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004044s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:14:26+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003225s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002467s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:14:27+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002641s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:16:21+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003437s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:17:37+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005340s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:17:43+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005611s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:17:44+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006343s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002294s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:20:35+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004281s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001266s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:20:35+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004830s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:20+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003732s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:20+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004590s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:21+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003159s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:22+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004514s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:22+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004380s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:46+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004359s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001365s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:46+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004039s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002384s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:47+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004069s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002727s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:47+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004732s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:48+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004500s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002607s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:48+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004008s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:48+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005253s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:48+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004754s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:49+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003078s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000616s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:50+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006626s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:21:50+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004053s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:08+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004865s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:09+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004077s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:26+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006793s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:29+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006561s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:32+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003079s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:33+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006112s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:43+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004064s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:22:43+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007115s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:25+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005042s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:25+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005541s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:27+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003093s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:27+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004313s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001241s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:28+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003682s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:30+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004136s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:23:30+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004118s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:28:48+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003298s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000743s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:28:48+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004824s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:33:06+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003190s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002160s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:33:06+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004786s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2018-08-05T17:33:06+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004644s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.004414s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:10+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003344s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:41+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003252s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:41+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004521s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:41+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004825s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:45+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003239s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:45+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003920s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:45+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005777s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:47+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003033s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:47+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003671s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:47+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003774s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:48+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003227s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:49+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003980s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:49+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004552s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:49+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003698s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:49+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004638s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002300s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2018-08-05T18:08:49+08:00 ] 127.0.0.1 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005019s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:46:12+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004752s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002434s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:46:44+08:00 ] 127.0.0.1 GET /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003161s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:48+08:00 ] 0.0.0.0 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003535s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:52+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002637s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:56+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002710s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:58+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002709s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:58+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003378s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:58+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004696s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002087s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:48:59+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002638s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:49:34+08:00 ] 0.0.0.0 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002619s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:49:35+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014684s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:49:41+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002602s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:49:41+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003969s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:49:41+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004439s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001755s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:55:42+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003815s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:55:42+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003393s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:55:42+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005181s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:55:48+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002649s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:55:48+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003718s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:55:48+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004192s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:56:26+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003222s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:56:26+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004320s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002361s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:56:26+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003470s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.001611s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:58:04+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003050s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:58:04+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004953s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2018-08-05T22:58:04+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006398s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002532s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000920s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:44+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024163s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001125s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:45+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003389s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:45+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003455s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:49+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002619s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:49+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003499s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001748s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:49+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003805s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002444s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:50+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002573s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:51+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003548s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:51+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003225s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:52+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002607s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:52+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005013s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001945s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:52+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003497s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:53+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002626s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:53+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004116s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:53+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003429s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:00:54+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002546s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:01:02+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002570s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:01:02+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003666s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:01:02+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003474s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.006101s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:02:19+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003398s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:02:19+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003486s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:03:01+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002700s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001026s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:03:01+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007959s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:03:01+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003358s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:03:02+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002547s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:03:02+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003857s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:03:02+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005292s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:04:20+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002715s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:04:21+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003258s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:04:21+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003214s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:09+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013145s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:09+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003610s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:09+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003473s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:42+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002823s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:43+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003682s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:43+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003362s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:45+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002572s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:45+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003347s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:45+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004674s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:50+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002661s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:50+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003426s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:09:50+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003590s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:13:55+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003218s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:13:55+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003724s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:13:55+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003574s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002018s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:14:36+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003269s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:14:36+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004154s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002436s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:14:36+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005027s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:14:37+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003504s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:14:38+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003266s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002442s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:14:38+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003649s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:15:18+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003754s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:15:18+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004167s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.003884s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:15:18+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003358s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:15:29+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002495s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002039s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:26+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003276s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:27+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011884s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:28+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004218s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:28+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013859s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:30+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003099s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001548s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:30+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004103s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:30+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006229s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:32+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003177s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:32+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004308s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:32+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004241s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001845s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:33+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003110s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:33+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004127s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:33+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006815s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.002359s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:36+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003407s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:36+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004228s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:36+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004283s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.001296s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:37+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003120s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:37+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004715s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:37+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004536s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:38+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/showIndex?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003177s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:38+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/channelData?id=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004331s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-08-05T23:16:38+08:00 ] 0.0.0.0 POST /admin/CollegeGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010856s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000470s ]

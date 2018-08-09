@@ -1848,7 +1848,7 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
         if (false === strpos($model, '\\')) {
             $path = explode('\\', get_called_class());
             array_pop($path);
-            array_push($path, Loader::parseName($model, 1));
+            array_push($path, Loader::parseName($model, 0));
             $model = implode('\\', $path);
         }
         return $model;

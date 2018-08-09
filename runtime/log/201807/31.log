@@ -1,0 +1,117 @@
+---------------------------------------------------------------
+[ 2018-07-31T17:13:46+08:00 ] 0.0.0.0 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017643s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.020087s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'admin'  AND `pwd` = 'e96df7802d440c8fbf5f8a9e9f10bf68' LIMIT 1 [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:15+08:00 ] 0.0.0.0 POST /index/User/checkLogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002788s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_user` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `f_user` WHERE  `user_name` = 'fate'  AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:21+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002767s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.014976s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:23+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004705s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001842s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:25+08:00 ] 0.0.0.0 GET /admin/RegularGrid/index
+[ error ] [1]Class 'app\admin\model\SchName' not found
+---------------------------------------------------------------
+[ 2018-07-31T17:14:26+08:00 ] 0.0.0.0 GET /admin/CollegeGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002822s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001602s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:27+08:00 ] 0.0.0.0 GET /admin/PraiseGrid/index
+[ error ] [1]Class 'app\admin\model\SchName' not found
+---------------------------------------------------------------
+[ 2018-07-31T17:14:27+08:00 ] 0.0.0.0 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003566s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:28+08:00 ] 0.0.0.0 GET /admin/UserGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002858s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:14:29+08:00 ] 0.0.0.0 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003293s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:15:17+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002914s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:15:19+08:00 ] 0.0.0.0 GET /admin/RegularGrid/index
+[ error ] [1]Class 'app\admin\model\SchName' not found
+---------------------------------------------------------------
+[ 2018-07-31T17:15:21+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002698s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.001111s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:35:35+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004366s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.003260s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:36:50+08:00 ] 0.0.0.0 GET /admin/DataGrid/channelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003486s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001770s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:37:09+08:00 ] 0.0.0.0 GET /admin/DataGrid/channelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003472s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_channel` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `f_channel` [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:41:07+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003099s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.002044s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:41:47+08:00 ] 0.0.0.0 GET /admin/CampusGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004084s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2018-07-31T17:41:59+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002663s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2018-07-31T19:05:34+08:00 ] 0.0.0.0 GET /admin/DataGrid/channelList
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2018-07-31T19:05:48+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003061s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001802s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-07-31T19:06:22+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002738s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001588s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2018-07-31T19:06:52+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008700s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[ 2018-07-31T19:07:02+08:00 ] 0.0.0.0 GET /admin/DataGrid/schoolList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003382s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2018-07-31T19:07:49+08:00 ] 0.0.0.0 GET /admin/DataGrid/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003660s ] mysql:host=127.0.0.1;port=3307;dbname=zsdj_crm;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `f_school` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `f_school` WHERE  `school_id` = 1 LIMIT 1 [ RunTime:0.000492s ]

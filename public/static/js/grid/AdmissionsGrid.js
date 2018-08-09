@@ -36,7 +36,7 @@ $(function() {
 			title : "编辑学生信息",
 			width : 1100,
 			height : 618,
-			url : "jsp/dialog/AddStu.jsp"
+			url : "./CollegeGrid/addStu"
 		});
 	});
 	// 添加回访记录
@@ -57,7 +57,7 @@ $(function() {
 			title : "添加回访记录",
 			width : 900,
 			height : 618,
-			url : "jsp/dialog/AddCallback.jsp"
+			url : "./CollegeGrid/callBack"
 		});
 	});
 	// 生成校区下拉列表
@@ -84,7 +84,7 @@ $(function() {
 	// 生成渠道下拉列表
 	new DropDownList({
 		renderTo : "select-channel",
-		dataSource : "channelData?id=0",
+		dataSource : "channelData?id="+window.parent.SCHOOLID,
 		mapping : {
 			key : "channel_id",
 			value : "channel_name"
@@ -106,7 +106,7 @@ $(function() {
 	// 生成在线咨询师下拉列表
 	new DropDownList({
 		renderTo : "select-online",
-		dataSource : "getUser.action",
+		dataSource : "onlineConsultantData?id="+window.parent.SCHOOLID,
 		mapping : {
 			key : "user_id",
 			value : "user_name"
@@ -209,7 +209,7 @@ $(function() {
 	// 生成课程顾问下拉列表
 	new DropDownList({
 		renderTo : "select-courseCon",
-		dataSource : "getUser.action",
+		dataSource : "courseConsultantData?id="+window.parent.SCHOOLID,
 		mapping : {
 			key : "user_id",
 			value : "user_name"
@@ -261,57 +261,55 @@ function loadGrid() {
 	// 禁用添加和编辑按钮
 	$("#btnEdit,#btnAddRecord").addClass("btnDisable");
 	// 拼接查询条件
-	var condition = "WHERE ";
+	var conditionInfo = "&&";
 	// 校区
 	var txtSchool = $("#select-school .ddlItemSelected").attr("key");
 	// 此处兼容其他几种招生渠道
 	if (txtSchool != "-1" && txtSchool != undefined)
-		condition += "T2.SCHOOL_ID=" + txtSchool + " AND ";
+        conditionInfo += "school_id=" + txtSchool + "&&";
 	// 学生姓名
 	var txtStu = $("#txtStu").val();
 	// 此处兼容数据搜索表内内容
 	if (txtStu != "" && txtStu != undefined)
-		condition += "T2.STUDENT_NAME LIKE '%" + txtStu + "%' AND ";
+        conditionInfo += "student_name=" + txtStu + "&&";
 	// 渠道
 	var txtChannel = $("#select-channel .ddlItemSelected").attr("key");
 	if (txtChannel != "-1" && txtChannel != undefined) {
-		condition += "T2.CHANNEL_ID =" + txtChannel + " AND ";
+        conditionInfo += "channel_id=" + txtChannel + "&&";
 	}
 	// 学生电话
 	var txtMobile = $("#txtMobile").val();
 	if (txtMobile != "")
-		condition += "T2.MOBILE LIKE '%" + txtMobile + "%' AND ";
+        conditionInfo += "mobile=" + txtMobile + "&&";
 	// 在线咨询师
 	var txtOnline = $("#select-online .ddlItemSelected").attr("key");
 	if (txtOnline != "-1" && txtOnline != undefined)
-		condition += "T2.ONLINE_CONSULTANT_ID =" + txtOnline + " AND ";
+        conditionInfo += "online_consultant_id=" + txtOnline + "&&";
 	// 学历
 	var txtEdu = $("#select-edu .ddlItemSelected").attr("key");
 	if (txtEdu != "-1")
-		condition += "T2.EDUCATION ='" + $("#select-edu .ddlItemSelected").text() + "' AND ";
+        conditionInfo += "education=" + $("#select-edu .ddlItemSelected").text() + "&&";
 	// 学员状态
 	var txtState = $("#select-stuState .ddlItemSelected").attr("key");
 	if (txtState != "-1")
-		condition += "T2.CURRENT_STATE ='" + $("#select-stuState .ddlItemSelected").text() + "' AND ";
+        conditionInfo += "current_state=" + $("#select-stuState .ddlItemSelected").text() + "&&";
 	// 学员意向
 	var txtWill = $("#select-stuAtt .ddlItemSelected").attr("key");
 	if (txtWill != "-1")
-		condition += "T2.VISIT_STATE ='" + $("#select-stuAtt .ddlItemSelected").text() + "' AND ";
-	// 课程顾问
+        conditionInfo	// 课程顾问
 	var txtConsult = $("#select-courseCon .ddlItemSelected").attr("key");
 	if (txtConsult != "-1" && txtConsult != undefined)
-		condition += "T2.COURSE_CONSULTANT_ID =" + txtConsult + " AND ";
+        conditionInfo += "course_consultant_id=" + txtConsult + "&&";
 	// 咨询日期
 	var sDate = $("#startDate").val();
 	var eDate = $("#endDate").val();
 	if (sDate != "" && eDate != "") {
-		condition += "T2.CONSULT_TIME BETWEEN '" + sDate + "' AND '" + eDate + "' AND ";
+        conditionInfo += "CONSULT_TIME BETWEEN '" + sDate + "' AND '" + eDate + "' &&";
 	}
 	// 判断是否是数据搜索或是其他几种渠道
-	if (window.parent.LICONTENT != "数据搜索")
+	/*if (window.parent.LICONTENT != "数据搜索")
 		condition += "T2.CHANNEL_CATEGORY='" + window.parent.LICONTENT + "' AND 1=1";
-	else
-		condition += "1=1";
+	else*/
 	studentGrid = new Grid({
 		renderTo : "myTableAdmissions",
 		columns : [ {
@@ -355,14 +353,14 @@ function loadGrid() {
 			hide : true
 		}, {
 			name : "在线咨询师",
-			alias : "online_name"
+			alias : "online_consultant_name"
 		}, {
 			name : "课程顾问id",
 			alias : "course_consultant_id",
 			hide : true
 		}, {
 			name : "课程顾问",
-			alias : "consultant_name"
+			alias : "course_consultant_name"
 		}, {
 			name : "上门时间",
 			alias : "first_visit_time"
@@ -393,7 +391,7 @@ function loadGrid() {
 			hide : true
 		}, {
 			name : "备注",
-			alias : "des",
+			alias : "desc",
 			hide : true
 		}, {
 			name : "目前现状",
@@ -412,10 +410,7 @@ function loadGrid() {
 			alias : "location",
 			hide : true
 		} ],
-		dataSource : "getStudentsByPage.action",
-		postData : {
-			condition : condition
-		},
+		dataSource : "stuListData?id="+window.parent.SCHOOLID+conditionInfo,
 		onRowClick : function(row) {
 			// 获取表格中的选中行
 			var row = $("#myTableAdmissions .gridSelected");
@@ -437,24 +432,24 @@ function loadGrid() {
 }
 
 function loadCallback() {
-	var condition = "WHERE ";
+	/*var condition = "WHERE ";
 
-	condition += "STU_ID=" + STUID + " AND 1=1";
+	condition += "STU_ID=" + STUID + " AND 1=1";*/
 	callbackGrid = new Grid({
 		renderTo : "myTableCallback",
 		columns : [ {
 			name : "学生id",
-			alias : "stu_id",
+			alias : "student_id",
 			hide : true
 		}, {
 			name : "咨询日期",
-			alias : "call_time"
+			alias : "visit_time"
 		}, {
 			name : "回访方式",
-			alias : "call_way"
+			alias : "visit_way"
 		}, {
 			name : "学生意愿",
-			alias : "stu_will"
+			alias : "will_state"
 		}, {
 			name : "用户id",
 			alias : "call_userid",
@@ -464,12 +459,10 @@ function loadCallback() {
 			alias : "call_username"
 		}, {
 			name : "回访记录",
-			alias : "call_record"
+			alias : "log_detail"
 		} ],
-		dataSource : "getCallbackByPage.action",
-		postData : {
-			condition : condition
-		}
+		dataSource : "selectRevisitData?student_id="+STUID
+
 
 	});
 }

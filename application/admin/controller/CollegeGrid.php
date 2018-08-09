@@ -1,12 +1,13 @@
 <?php
 /**
- * 院校招生
+ * 后台api接口
  */
 
 namespace app\admin\controller;
 
 use app\admin\model\f_channel;
 use app\admin\model\f_course;
+use app\admin\model\f_role;
 use app\admin\model\f_school;
 use app\admin\model\f_student;
 use app\admin\model\f_user;
@@ -17,7 +18,14 @@ use think\Request;
 use think\Session;
 
 class CollegeGrid extends Controller {
-    public function showIndex(Request $request){
+    /**
+     * 显示不同模块
+     * @param Request $request
+     * @return \think\response\Json|\think\response\View
+     * @throws \think\Exception
+     * @throws \think\exception\DbException
+     */
+    public function showIndex(Request $request) {
         //从Session中获取学校id
         $school_id  = Session::get('user_info.school_id');
         $schoolInfo = f_school::get($school_id)->toArray();
@@ -31,45 +39,9 @@ class CollegeGrid extends Controller {
         $school_name = $schoolInfo['school_name'];
 
         $request_id = $request->only('id');
-        $model = array('IndexCharts','DataGrid','RegularGrid','CollegeGrid','PraiseGrid','CampusGrid','UserGrid');
+        $model      = array('IndexCharts', 'DataGrid', 'RegularGrid', 'CollegeGrid', 'PraiseGrid', 'CampusGrid', 'UserGrid');
         $this->assign('school_name', $school_name);
-        return view('../application/admin/view/grid/'.$model[$request_id['id']].'.html');
-//        return view('../application/admin/view/grid/IndexCharts.html');
-
-    }
-
-    /**
-     * 显示校区
-     * @return \think\response\Json
-     * @throws \think\Exception
-     * @throws \think\exception\DbException
-     */
-    public function index() {
-        $status  = 1;
-        $message = '查询成功';
-
-        //从Session中获取学校id
-        $school_id = Session::get('user_info.school_id');
-        $school_id = 1;
-
-        if (empty($school_id)) {
-            $status  = 0;
-            $message = '查询失败,学校信息不存在';
-            return json(['status' => $status, 'message' => $message]);
-        }
-
-        $schoolInfo = f_school::get($school_id)->toArray();
-
-        if (!$schoolInfo) {
-            $status  = 0;
-            $message = '查询失败';
-            return json(['status' => $status, 'message' => $message]);
-        }
-
-        $school_name = $schoolInfo['school_name'];
-        return json(['status' => $status, 'message' => $message, 'data' => $school_name, 'total' => 1]);
-//        $this->assign('school_name', $school_name);
-//        return view('../application/admin/view/grid/CampusGrid.html');
+        return view('../application/admin/view/grid/' . $model[$request_id['id']] . '.html');
     }
 
     /**
@@ -101,7 +73,7 @@ class CollegeGrid extends Controller {
      * @return mixed
      */
     private function moudelList($id) {
-        $moudel_list = array('数据搜索', '常规招生', '院校招生', '口碑招生', '校区招生', '系统管理');
+        $moudel_list = array('首页', '数据搜索', '常规招生', '院校招生', '口碑招生', '校区招生', '系统管理');
         $moudel      = $moudel_list[$id];
         return $moudel;
     }
@@ -303,10 +275,8 @@ class CollegeGrid extends Controller {
         foreach ($user_info as $key => $value) {
             $data[] = $value->toArray();
         }
-        foreach ($data as $key => $value) {
-            $user_name[] = $value['user_name'];
-        }
-        return json(['status' => $status, 'message' => $message, 'data' => $user_name, 'total' => count($user_info)]);
+
+        return json(['status' => $status, 'message' => $message, 'data' => $data, 'total' => count($user_info)]);
     }
 
     /**
@@ -320,6 +290,7 @@ class CollegeGrid extends Controller {
 
         //获取回访表单数据
         $data = $request->param();
+
         if (!$data) {
             $status  = 0;
             $message = '获取数据失败';
@@ -332,11 +303,11 @@ class CollegeGrid extends Controller {
         //将表单数据保存的data数组中
         $data['create_id']  = $user_id;
         $data['visit_time'] = date('Y-m-d H:i:s', strtotime($data['visit_time']));
-        $visitWay           = array('电话', 'QQ', '微信', '面谈');
-        $data['visit_way']  = $visitWay[$data['visit_way']];
-        $willState          = array('非常有意向', '一般有意向', '意向不明', '无意向');
-        $data['will_state'] = $willState[$data['will_state']];
 
+        $visit_way          = array('电话' => 1, '微信' => 2, 'QQ' => 3, '面谈' => 4);
+        $data['visit_way']  = $visit_way[$data['visit_way']];
+        $sill_state         = array('非常有意向' => 1, '一般有意向' => 2, '意向不明' => 3, '无意向' => 4);
+        $data['will_state'] = $sill_state[$data['will_state']];
         //插入数据库
         $logVisit = log_visit::create($data);
 
@@ -352,11 +323,13 @@ class CollegeGrid extends Controller {
      * 查询回访记录
      * @param Request $request
      * @return \think\response\Json
+     * @throws \think\Exception
      * @throws \think\exception\DbException
      */
     public function selectRevisitData(Request $request) {
-        $status     = 1;
-        $message    = '查询成功';
+        $status  = 1;
+        $message = '查询成功';
+
         $student_id = $request->only('student_id');
 
         if ($request->get('page_size')) {
@@ -378,14 +351,17 @@ class CollegeGrid extends Controller {
         if (!$visit_info) {
             $status  = 0;
             $message = '没有数据';
-            return json(['status' => $status, 'message' => $message]);
+            $data    = ['visit_time' => '', 'visit_way' => '', 'will_state' => '', 'call_username' => '', 'log_detail' => ''];
+            return json(['status' => $status, 'message' => $message, 'data' => $data, 'total' => 0]);
         }
 
         foreach ($visit_info as $key => $value) {
-            $visit_list[] = $value->toArray();
+            $call_name_list              = f_user::get(['user_id' => $value['call_userid']])->toArray();
+            $visit_list                  = $value->toArray();
+            $visit_list['call_username'] = $call_name_list['user_name'];
+            $new_visit_list[]            = $visit_list;
         }
-
-        return json(['status' => $status, 'message' => $message, 'data' => $visit_list, 'total' => count($visit_list)]);
+        return json(['status' => $status, 'message' => $message, 'data' => $new_visit_list, 'total' => count($new_visit_list)]);
     }
 
     /**
@@ -401,6 +377,7 @@ class CollegeGrid extends Controller {
         $stuList    = array();
         $request_id = $request->only('id');
         $moudel     = $this->moudelList($request_id['id']);
+        $map        = array();
 
         if ($request->get('page_size')) {
             $page_size = $request->get('page_size');
@@ -414,21 +391,161 @@ class CollegeGrid extends Controller {
             $now_page = 1;
         }
 
+        $url     = $request->url();
+        $url_arr = explode('&&', $url);
 
-        if ($moudel == '数据搜索' || $moudel == '系统管理') {
+        if (count($url_arr) == 2) {
+            //说明没有传入条件
+            if ($moudel == '数据搜索') {
+                $stu_info = f_student::all(function ($query) use ($page_size, $now_page) {
+                    $query->page($now_page, $page_size)->order('school_id', 'desc');
+                });
 
-            $stu_info = f_student::all(function ($query) use ($page_size, $now_page) {
-                $query->page($now_page, $page_size)->order('school_id', 'desc');
+                foreach ($stu_info as $key => $value) {
+                    $stu_list[] = $value->toArray();
+                }
+                if (!$stu_list) {
+                    $status  = 0;
+                    $message = '没有数据';
+                    return json(['status' => $status, 'message' => $message]);
+                }
+
+                foreach ($stu_list as $key => $value) {
+                    $channel_list           = f_channel::get(['channel_id' => $value['channel_id']])->toArray();
+                    $online_consultant_list = f_user::get(['user_id' => $value['online_consultant_id']])->toArray();
+                    $course_consultant_list = f_user::get(['user_id' => $value['course_consultant_id']])->toArray();
+                    $school_list            = f_school::get(['school_id' => $value['school_id']])->toArray();
+                    $create_list            = f_user::get(['user_id' => $value['create_id']])->toArray();
+                    $course_list            = f_course::get(['course_id' => $value['course_id']])->toArray();
+
+                    $value['channel_name']               = $channel_list['channel_name'];
+                    $value['channel_category']           = $channel_list['channel_category'];
+                    $value['channel_desc']               = $channel_list['channel_desc'];
+                    $value['online_consultant_name']     = $online_consultant_list['user_name'];
+                    $value['online_consultant_emp_name'] = $online_consultant_list['emp_name'];
+                    $value['online_consultant_email']    = $online_consultant_list['email'];
+                    $value['online_consultant_mobile']   = $online_consultant_list['mobile'];
+                    $value['online_consultant_desc']     = $online_consultant_list['desc'];
+                    $value['course_consultant_name']     = $course_consultant_list['user_name'];
+                    $value['course_consultant_emp_name'] = $course_consultant_list['emp_name'];
+                    $value['course_consultant_email']    = $course_consultant_list['email'];
+                    $value['course_consultant_mobile']   = $course_consultant_list['mobile'];
+                    $value['course_consultant_desc']     = $course_consultant_list['desc'];
+                    $value['school_name']                = $school_list['school_name'];
+                    $value['school_desc']                = $school_list['school_desc'];
+                    $value['create_name']                = $create_list['user_name'];
+                    $value['create_emp_name']            = $create_list['emp_name'];
+                    $value['create_email']               = $create_list['email'];
+                    $value['create_mobile']              = $create_list['mobile'];
+                    $value['create_desc']                = $create_list['desc'];
+                    $value['course_name']                = $course_list['course_name'];
+
+                    $newStuList[] = $value;
+                }
+                return json(['status' => $status, 'message' => $message, 'data' => $newStuList, 'total' => count($stu_list)]);
+            } else {
+                //获取渠道ID
+                $channel_id = f_channel::all(['channel_category' => $moudel]);
+
+                if (!$channel_id) {
+                    $status  = 0;
+                    $message = '没有数据';
+                    return json(['status' => $status, 'message' => $message]);
+                }
+                foreach ($channel_id as $key => $value) {
+                    $data[] = $value->toArray();
+                }
+                foreach ($data as $key => $value) {
+                    $channelId[] = $value['channel_id'];
+                }
+
+                //获取校区ID
+                $school_id = Session::get('user_info.school_id');
+
+                //查询条件
+                $map['channel_id'] = array('in', $channelId);
+                $map['school_id']  = array('eq', $school_id);
+
+                //获取符合条件的所有数据
+                $stu_list = f_student::all(function ($query) use ($map, $page_size, $now_page) {
+                    $query->where($map)->page($now_page, $page_size)->order('school_id', 'desc');
+                });
+
+                if (empty($stu_list)) {
+                    $status  = 0;
+                    $message = '没有数据';
+                    return json(['status' => $status, 'message' => $message]);
+                }
+
+                foreach ($stu_list as $key => $value) {
+                    $stuList[] = $value->toArray();
+                }
+
+                foreach ($stuList as $key => $value) {
+                    $channel_list           = f_channel::get(['channel_id' => $value['channel_id']])->toArray();
+                    $online_consultant_list = f_user::get(['user_id' => $value['online_consultant_id']])->toArray();
+                    $course_consultant_list = f_user::get(['user_id' => $value['course_consultant_id']])->toArray();
+                    $school_list            = f_school::get(['school_id' => $value['school_id']])->toArray();
+                    $create_list            = f_user::get(['user_id' => $value['create_id']])->toArray();
+                    $course_list            = f_course::get(['course_id' => $value['course_id']])->toArray();
+
+                    $value['channel_name']               = $channel_list['channel_name'];
+                    $value['channel_category']           = $channel_list['channel_category'];
+                    $value['channel_desc']               = $channel_list['channel_desc'];
+                    $value['online_consultant_name']     = $online_consultant_list['user_name'];
+                    $value['online_consultant_emp_name'] = $online_consultant_list['emp_name'];
+                    $value['online_consultant_email']    = $online_consultant_list['email'];
+                    $value['online_consultant_mobile']   = $online_consultant_list['mobile'];
+                    $value['online_consultant_desc']     = $online_consultant_list['desc'];
+                    $value['course_consultant_name']     = $course_consultant_list['user_name'];
+                    $value['course_consultant_emp_name'] = $course_consultant_list['emp_name'];
+                    $value['course_consultant_email']    = $course_consultant_list['email'];
+                    $value['course_consultant_mobile']   = $course_consultant_list['mobile'];
+                    $value['course_consultant_desc']     = $course_consultant_list['desc'];
+                    $value['school_name']                = $school_list['school_name'];
+                    $value['school_desc']                = $school_list['school_desc'];
+                    $value['create_name']                = $create_list['user_name'];
+                    $value['create_emp_name']            = $create_list['emp_name'];
+                    $value['create_email']               = $create_list['email'];
+                    $value['create_mobile']              = $create_list['mobile'];
+                    $value['create_desc']                = $create_list['desc'];
+                    $value['course_name']                = $course_list['course_name'];
+
+                    $newStuList[] = $value;
+                }
+                return json(['status' => $status, 'message' => $message, 'data' => $newStuList, 'total' => count($stu_list)]);
+            }
+        } else {
+            $data_list = $request->param();
+            $school_id = Session::get('user_info.user_id');
+
+            $channel = $this->channelData($request)->getData()['data'];
+            foreach ($channel as $value) {
+                $default_channel[] = $value['channel_name'];
+            }
+
+            isset($data_list['school_id']) ? $map['school_id'] = $data_list['school_id'] : $map['school_id'] = $school_id;
+            isset($data_list['student_name']) ? $map['student_name'] = $data_list['student_name'] : '';
+            isset($data_list['channel_id']) ? $map['channel_id'] = $data_list['channel_id'] : '';
+            isset($data_list['mobile']) ? $map['mobile'] = $data_list['mobile'] : '';
+            isset($data_list['online_consultant_id']) ? $map['online_consultant_id'] = $data_list['online_consultant_id'] : '';
+            isset($data_list['education']) ? $map['education'] = $data_list['education'] : '';
+            isset($data_list['current_state']) ? $map['current_state'] = $data_list['current_state'] : '';
+            isset($data_list['course_consultant_id']) ? $map['course_consultant_id'] = $data_list['course_consultant_id'] : '';
+
+            $stu_info = f_student::all(function ($query) use ($map, $page_size, $now_page) {
+                $query->where($map)->page($now_page, $page_size)->order('school_id', 'desc');
             });
+
+            if (empty($stu_info)) {
+                $status  = 0;
+                $message = '没有数据';
+                return json(['status' => $status, 'message' => $message]);
+            }
 
             foreach ($stu_info as $key => $value) {
                 $stu_list[] = $value->toArray();
             }
-            if (!$stu_list) {
-                $status  = 0;
-                $message = '没有数据';
-                return json(['status' => $status, 'message' => $message]);
-            }
 
             foreach ($stu_list as $key => $value) {
                 $channel_list           = f_channel::get(['channel_id' => $value['channel_id']])->toArray();
@@ -436,6 +553,7 @@ class CollegeGrid extends Controller {
                 $course_consultant_list = f_user::get(['user_id' => $value['course_consultant_id']])->toArray();
                 $school_list            = f_school::get(['school_id' => $value['school_id']])->toArray();
                 $create_list            = f_user::get(['user_id' => $value['create_id']])->toArray();
+                $course_list            = f_course::get(['course_id' => $value['course_id']])->toArray();
 
                 $value['channel_name']               = $channel_list['channel_name'];
                 $value['channel_category']           = $channel_list['channel_category'];
@@ -457,171 +575,12 @@ class CollegeGrid extends Controller {
                 $value['create_email']               = $create_list['email'];
                 $value['create_mobile']              = $create_list['mobile'];
                 $value['create_desc']                = $create_list['desc'];
-
-                $newStuList[] = $value;
-            }
-            return json(['status' => $status, 'message' => $message, 'data' => $newStuList, 'total' => count($stu_list)]);
-        } else {
-            //获取渠道ID
-            $channel_id = f_channel::all(['channel_category' => $moudel]);
-
-            if (!$channel_id) {
-                $status  = 0;
-                $message = '没有数据';
-                return json(['status' => $status, 'message' => $message]);
-            }
-
-            foreach ($channel_id as $key => $value) {
-                $data[] = $value->toArray();
-            }
-            foreach ($data as $key => $value) {
-                $channelId[] = $value['channel_id'];
-            }
-
-            //获取校区ID
-            $school_id = Session::get('user_info.school_id');
-
-            //查询条件
-            $map['channel_id'] = array('in', $channelId);
-            $map['school_id']  = array('eq', $school_id);
-
-            //获取符合条件的所有数据
-            $stu_list = f_student::all(function ($query) use ($map, $page_size, $now_page) {
-                $query->where($map)->page($now_page, $page_size)->order('school_id', 'desc');
-            });
-
-            if (empty($stu_list)) {
-                $status  = 0;
-                $message = '没有数据';
-                return json(['status' => $status, 'message' => $message]);
-            }
-
-            foreach ($stu_list as $key => $value) {
-                $stuList[] = $value->toArray();
-            }
-
-            foreach ($stuList as $key => $value) {
-                $channel_list           = f_channel::get(['channel_id' => $value['channel_id']])->toArray();
-                $online_consultant_list = f_user::get(['user_id' => $value['online_consultant_id']])->toArray();
-                $course_consultant_list = f_user::get(['user_id' => $value['course_consultant_id']])->toArray();
-                $school_list            = f_school::get(['school_id' => $value['school_id']])->toArray();
-                $create_list            = f_user::get(['user_id' => $value['create_id']])->toArray();
-
-                $value['channel_name']               = $channel_list['channel_name'];
-                $value['channel_category']           = $channel_list['channel_category'];
-                $value['channel_desc']               = $channel_list['channel_desc'];
-                $value['online_consultant_name']     = $online_consultant_list['user_name'];
-                $value['online_consultant_emp_name'] = $online_consultant_list['emp_name'];
-                $value['online_consultant_email']    = $online_consultant_list['email'];
-                $value['online_consultant_mobile']   = $online_consultant_list['mobile'];
-                $value['online_consultant_desc']     = $online_consultant_list['desc'];
-                $value['course_consultant_name']     = $course_consultant_list['user_name'];
-                $value['course_consultant_emp_name'] = $course_consultant_list['emp_name'];
-                $value['course_consultant_email']    = $course_consultant_list['email'];
-                $value['course_consultant_mobile']   = $course_consultant_list['mobile'];
-                $value['course_consultant_desc']     = $course_consultant_list['desc'];
-                $value['school_name']                = $school_list['school_name'];
-                $value['school_desc']                = $school_list['school_desc'];
-                $value['create_name']                = $create_list['user_name'];
-                $value['create_emp_name']            = $create_list['emp_name'];
-                $value['create_email']               = $create_list['email'];
-                $value['create_mobile']              = $create_list['mobile'];
-                $value['create_desc']                = $create_list['desc'];
+                $value['course_name']                = $course_list['course_name'];
 
                 $newStuList[] = $value;
             }
             return json(['status' => $status, 'message' => $message, 'data' => $newStuList, 'total' => count($stu_list)]);
         }
-    }
-
-    /**
-     * 查询学生信息
-     * @param Request $request
-     * @return \think\response\Json
-     * @throws \think\Exception
-     * @throws \think\exception\DbException
-     */
-    public function selectStuData(Request $request) {
-        $status     = 1;
-        $message    = '查询成功';
-        $request_id = $request->only('id');
-        $moudel     = $this->moudelList($request_id['id']);
-        $list_data  = $request->post();
-        $map        = array();
-        $school_id  = Session::get('user_info.school_id');
-
-        isset($list_data['school_id']) ? $list_data['school_id'] : $list_data['school_id'] = $school_id;
-
-        if ($request->get('page_size')) {
-            $page_size = $request->get('page_size');
-        } else {
-            $page_size = 10;
-        }
-
-        if ($request->get('now_page')) {
-            $now_page = $request->get('now_page');
-        } else {
-            $now_page = 1;
-        }
-
-        $education     = array('初中', '中专', '高中', '高职', '大专', '本科', '研究生');
-        $current_state = array('在读学校', '在读离校', '待业', '在职', '自由职业');
-        $will_state    = array('非常有意向', '一般有意向', '意向不明', '无意向');
-
-        $list_data['school_id'] == -1 ? '' : $map['school_id'] = $list_data['school_id'];
-        $list_data['channel_id'] == -1 ? '' : $map['channel_id'] = $list_data['channel_id'];
-        empty($list_data['mobile']) ? '' : $map['mobile'] = $list_data['mobile'];
-        $list_data['online_consultant_id'] == -1 ? '' : $map['online_consultant_id'] = $list_data['online_consultant_id'];
-        $list_data['education'] == -1 ? '' : $map['education'] = $education[$list_data['education']];
-        $list_data['current_state'] == -1 ? '' : $map['current_state'] = $current_state[$list_data['current_state']];
-        $list_data['will_state'] == -1 ? '' : $map['will_state'] = $will_state[$list_data['will_state']];
-        $list_data['course_consultant_id'] == -1 ? '' : $map['course_consultant_id'] = $list_data['course_consultant_id'];
-
-        $stu_info = f_student::all(function ($query) use ($map, $page_size, $now_page) {
-            $query->where($map)->page($now_page, $page_size)->order('school_id', 'desc');
-        });
-
-        if (empty($stu_info)) {
-            $status  = 0;
-            $message = '没有数据';
-            return json(['status' => $status, 'message' => $message]);
-        }
-
-        foreach ($stu_info as $key => $value) {
-            $stu_list[] = $value->toArray();
-        }
-
-        foreach ($stu_list as $key => $value) {
-            $channel_list           = f_channel::get(['channel_id' => $value['channel_id']])->toArray();
-            $online_consultant_list = f_user::get(['user_id' => $value['online_consultant_id']])->toArray();
-            $course_consultant_list = f_user::get(['user_id' => $value['course_consultant_id']])->toArray();
-            $school_list            = f_school::get(['school_id' => $value['school_id']])->toArray();
-            $create_list            = f_user::get(['user_id' => $value['create_id']])->toArray();
-
-            $value['channel_name']               = $channel_list['channel_name'];
-            $value['channel_category']           = $channel_list['channel_category'];
-            $value['channel_desc']               = $channel_list['channel_desc'];
-            $value['online_consultant_name']     = $online_consultant_list['user_name'];
-            $value['online_consultant_emp_name'] = $online_consultant_list['emp_name'];
-            $value['online_consultant_email']    = $online_consultant_list['email'];
-            $value['online_consultant_mobile']   = $online_consultant_list['mobile'];
-            $value['online_consultant_desc']     = $online_consultant_list['desc'];
-            $value['course_consultant_name']     = $course_consultant_list['user_name'];
-            $value['course_consultant_emp_name'] = $course_consultant_list['emp_name'];
-            $value['course_consultant_email']    = $course_consultant_list['email'];
-            $value['course_consultant_mobile']   = $course_consultant_list['mobile'];
-            $value['course_consultant_desc']     = $course_consultant_list['desc'];
-            $value['school_name']                = $school_list['school_name'];
-            $value['school_desc']                = $school_list['school_desc'];
-            $value['create_name']                = $create_list['user_name'];
-            $value['create_emp_name']            = $create_list['emp_name'];
-            $value['create_email']               = $create_list['email'];
-            $value['create_mobile']              = $create_list['mobile'];
-            $value['create_desc']                = $create_list['desc'];
-
-            $newStuList[] = $value;
-        }
-        return json(['status' => $status, 'message' => $message, 'data' => $newStuList, 'total' => count($stu_list)]);
     }
 
     /**
@@ -649,14 +608,7 @@ class CollegeGrid extends Controller {
             $data['last_update_id']   = $user_id;
             $data['first_visit_time'] = date('Y-m-d H:i:s', strtotime($data['first_visit_time']));
             $data['register_time']    = date('Y-m-d H:i:s', strtotime($data['register_time']));
-            $gender                   = array('女', '男', '保密');
-            $data['gender']           = $gender[$data['gender']];
-            $education                = array('初中', '中专', '高中', '高职', '大专', '本科生', '研究生');
-            $data['education']        = $education[$data['education']];
-            $currentState             = array('在读学校', '在读离校', '待业', '在职', '自由职业');
-            $data['current_state']    = $currentState[$data['current_state']];
-            $visitState               = array('未上门', '已上门', '已报名');
-            $data['visit_state']      = $visitState[$data['visit_state']];
+            $data['consult_time']     = date('Y-m-d H:i:s', strtotime($data['consult_time']));
             $data['school_id']        = Session::get('user_info.school_id');
 
             //插入数据库
@@ -672,7 +624,6 @@ class CollegeGrid extends Controller {
             $message = '添加失败';
             return json(['status' => $status, 'message' => $message]);
         }
-
         return json(['status' => $status, 'message' => $message, 'total' => 1]);
     }
 
@@ -708,14 +659,7 @@ class CollegeGrid extends Controller {
         $data['last_update_id']   = $user_id;
         $data['first_visit_time'] = date('Y-m-d H:i:s', strtotime($data['first_visit_time']));
         $data['register_time']    = date('Y-m-d H:i:s', strtotime($data['register_time']));
-        $gender                   = array('女', '男', '保密');
-        $data['gender']           = $gender[$data['gender']];
-        $education                = array('初中', '中专', '高中', '高职', '大专', '本科生', '研究生');
-        $data['education']        = $education[$data['education']];
-        $currentState             = array('在读学校', '在读离校', '待业', '在职', '自由职业');
-        $data['current_state']    = $currentState[$data['current_state']];
-        $visitState               = array('未上门', '已上门', '已报名');
-        $data['visit_state']      = $visitState[$data['visit_state']];
+        $data['consult_time']     = date('Y-m-d H:i:s', strtotime($data['consult_time']));
         $data['school_id']        = Session::get('user_info.school_id');
 
         //修改学生信息
@@ -729,7 +673,19 @@ class CollegeGrid extends Controller {
         return json(['status' => $status, 'message' => $message]);
     }
 
-    public function addStu(){
+    /**
+     * 添加、编辑学生表单
+     * @return \think\response\View
+     */
+    public function addStu() {
         return view('../application/admin/view/dialog/AddStu.html');
+    }
+
+    /**
+     * 显示回访表单
+     * @return \think\response\View
+     */
+    public function callBack() {
+        return view('../application/admin/view/dialog/AddCallback.html');
     }
 }

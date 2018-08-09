@@ -43,7 +43,7 @@ $(function() {
 	// 生成职位下拉列表
 	 new DropDownList({
 		renderTo : "selectRole",
-		dataSource : "getRole.action",
+		dataSource : "../../admin/UserGrid/roleList",
 		mapping : {
 			key : "role_id",
 			value : "role_name"
@@ -64,7 +64,7 @@ $(function() {
 	// 生成校区下拉列表
 	SLTSCHOOL = new DropDownList({
 		renderTo : "selectSchool",
-		dataSource : "",
+		dataSource : "../../admin/CollegeGrid/schoolList",
 		mapping : {
 			key : "school_id",
 			value : "school_name"
@@ -156,14 +156,14 @@ function postUserInfo() {
 	}
 	
 	// 如果页面中存在错误
-	if (errCount > 0)
-		return;// 退出整个方法
+	/*if (errCount > 0)
+		return;// 退出整个方法*/
 	// 按钮点击后立即禁用，防止用户短时间快速反复点击
-	setTimeout(function() {
+	/*setTimeout(function() {
 		btnSave.addClass("btnDisable").val("正在保存，请稍后……");
-	}, 2000);
+	}, 2000);*/
 
-	$.post(IS_EDIT ? "updateUser.action" : "addUser.action", {
+	$.post(IS_EDIT ? "updateUser" : "../../admin/UserGrid/addUser", {
 		user_id : USERID,
 		user_name : $("#txtName").val(),
 		pwd : $("#txtPwd").val(),

@@ -32,8 +32,8 @@ Menu.prototype.build = function() {
 	this.menuList = $("<ul class='menuList'></ul>").appendTo(this.renderTo);
 	this.menuHoverBG = $("<div class='menuHoverBG hidden'></div>").appendTo(this.renderTo);
 	this.menuSelectedBG = $("<div class='menuSelectedBG'></div>").appendTo(this.renderTo);
-	$(this.dataSource).each(function() {
-		var menuItem = $("<li class='menuItem'></li>").attr("url", this.url).html(this.name).appendTo(t.menuList);
+	$(this.dataSource).each(function(index,value) {
+		var menuItem = $("<li class='menuItem' key='"+index+"'></li>").attr("url", this.url).html(this.name).appendTo(t.menuList);
 	});
 	
 	this.eventBind();

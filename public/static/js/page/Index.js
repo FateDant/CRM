@@ -1,6 +1,7 @@
 var topDialog;
 var LICONTENT;
 var IP;
+var SCHOOLID;
 $(function() {
 	// 初始化弹出层
 	topDialog = new Dialog({
@@ -53,7 +54,8 @@ $(function() {
 		onClick : function(li) {
 			$("#mainIframe").attr("src", $(li).attr("url"));
 			LICONTENT = $(li).text();
-		}
+            SCHOOLID=$(li).attr("key");
+        }
 
 	});
 	// 浏览器窗体大小改变时触发该事件
